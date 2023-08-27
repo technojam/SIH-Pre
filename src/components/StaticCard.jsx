@@ -74,7 +74,7 @@ export default function StaticCard() {
                 textAlign="center"
                 sx={{ color: "#000" }}
               >
-                8 Themes
+                16 Themes
               </Typography>
             </Box>
 
@@ -99,7 +99,8 @@ export default function StaticCard() {
                 textAlign="center"
                 sx={{ color: "#000" }}
               >
-                Cash Price 2.5 Lakhs
+                Cash Price 1 Lakh
+                
               </Typography>
             </Box>
             <Box
