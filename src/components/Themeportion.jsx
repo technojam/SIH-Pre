@@ -15,7 +15,8 @@ import { Divide } from "react-feather";
 const FrontCard = () => (
   <Box
     sx={{
-      background: "linear-gradient(180deg, #13b3be,#85fcfc)",
+      background: "rgb(119,209,222)",
+                background: "linear-gradient(130deg, rgba(119,209,222,1) 0%, rgba(47,134,197,1) 25%, rgba(94,56,134,1) 50%, rgba(166,57,108,1) 75%, rgba(225,71,124,1) 100%)",
       borderRadius: "6px",
       height: "100%",
     }}
@@ -37,7 +38,8 @@ const FrontCard = () => (
 const FrontCard1 = () => (
   <Box
     sx={{
-      background: "linear-gradient(180deg, #13b3be,#85fcfc)",
+      background: "rgb(119,209,222)",
+                background: "linear-gradient(130deg, rgba(119,209,222,1) 0%, rgba(47,134,197,1) 25%, rgba(94,56,134,1) 50%, rgba(166,57,108,1) 75%, rgba(225,71,124,1) 100%)",
       borderRadius: "6px",
       height: "100%",
     }}
@@ -59,7 +61,8 @@ const FrontCard1 = () => (
 const FrontCard2 = () => (
   <Box
     sx={{
-      background: "linear-gradient(180deg, #13b3be,#85fcfc)",
+      background: "rgb(119,209,222)",
+                background: "linear-gradient(130deg, rgba(119,209,222,1) 0%, rgba(47,134,197,1) 25%, rgba(94,56,134,1) 50%, rgba(166,57,108,1) 75%, rgba(225,71,124,1) 100%)",
       borderRadius: "6px",
       height: "100%",
     }}
@@ -81,7 +84,8 @@ const FrontCard2 = () => (
 const FrontCard3 = () => (
   <Box
     sx={{
-      background: "linear-gradient(180deg, #13b3be,#85fcfc)",
+      background: "rgb(119,209,222)",
+                background: "linear-gradient(130deg, rgba(119,209,222,1) 0%, rgba(47,134,197,1) 25%, rgba(94,56,134,1) 50%, rgba(166,57,108,1) 75%, rgba(225,71,124,1) 100%)",
       borderRadius: "6px",
       height: "100%",
     }}
@@ -103,7 +107,8 @@ const FrontCard3 = () => (
 const FrontCard4 = () => (
   <Box
     sx={{
-      background: "linear-gradient(180deg, #13b3be,#85fcfc)",
+      background: "rgb(119,209,222)",
+                background: "linear-gradient(130deg, rgba(119,209,222,1) 0%, rgba(47,134,197,1) 25%, rgba(94,56,134,1) 50%, rgba(166,57,108,1) 75%, rgba(225,71,124,1) 100%)",
       borderRadius: "6px",
       height: "100%",
     }}
@@ -125,7 +130,8 @@ const FrontCard4 = () => (
 const FrontCard5 = () => (
   <Box
     sx={{
-      background: "linear-gradient(180deg, #13b3be,#85fcfc)",
+      background: "rgb(119,209,222)",
+                background: "linear-gradient(130deg, rgba(119,209,222,1) 0%, rgba(47,134,197,1) 25%, rgba(94,56,134,1) 50%, rgba(166,57,108,1) 75%, rgba(225,71,124,1) 100%)",
       borderRadius: "6px",
       height: "100%",
     }}
@@ -147,7 +153,8 @@ const FrontCard5 = () => (
 const FrontCard6 = () => (
   <Box
     sx={{
-      background: "linear-gradient(180deg, #13b3be,#85fcfc)",
+      background: "rgb(119,209,222)",
+                background: "linear-gradient(130deg, rgba(119,209,222,1) 0%, rgba(47,134,197,1) 25%, rgba(94,56,134,1) 50%, rgba(166,57,108,1) 75%, rgba(225,71,124,1) 100%)",
       borderRadius: "6px",
       height: "100%",
     }}
@@ -169,7 +176,8 @@ const FrontCard6 = () => (
 const FrontCard7 = () => (
   <Box
     sx={{
-      background: "linear-gradient(180deg, #13b3be,#85fcfc)",
+      background: "rgb(119,209,222)",
+                background: "linear-gradient(130deg, rgba(119,209,222,1) 0%, rgba(47,134,197,1) 25%, rgba(94,56,134,1) 50%, rgba(166,57,108,1) 75%, rgba(225,71,124,1) 100%)",
       borderRadius: "6px",
       height: "100%",
     }}
@@ -191,8 +199,12 @@ const FrontCard7 = () => (
 
 const BackCard = () => {
   return (
-    <Box sx={{}}>
-      <Typography variant="h4" sx={{ color: "#FAFAFA", my: 2 }}>
+    <Box sx={{
+      background: "rgb(119,209,222)",
+                background: "linear-gradient(130deg, rgba(119,209,222,1) 0%, rgba(47,134,197,1) 25%, rgba(94,56,134,1) 50%, rgba(166,57,108,1) 75%, rgba(225,71,124,1) 100%)",
+      borderRadius: "6px",
+      height: "100%",}}>
+      <Typography variant="h4" sx={{ color: "#000",py:2}}>
         Sub-themes
       </Typography>
       <Divider />
@@ -232,8 +244,15 @@ const BackCard = () => {
 };
 const BackCard1 = () => {
   return (
-    <Box sx={{}}>
-      <Typography variant="h4" sx={{ color: "#000", my: 2 }}>
+
+    <Box sx={{
+      background: "rgb(119,209,222)",
+                background: "linear-gradient(130deg, rgba(119,209,222,1) 0%, rgba(47,134,197,1) 25%, rgba(94,56,134,1) 50%, rgba(166,57,108,1) 75%, rgba(225,71,124,1) 100%)",
+      borderRadius: "6px",
+      height: "100%",}}>
+
+
+      <Typography variant="h4" sx={{ color: "#000",py:2}}>
         Sub-themes
       </Typography>
       <Divider />
@@ -281,8 +300,14 @@ const BackCard1 = () => {
 const BackCard2 = () => {
   return (
     <>
-      <Box sx={{}}>
-        <Typography variant="h4" sx={{ color: "#000", my: 2 }}>
+
+      <Box sx={{
+      background: "rgb(119,209,222)",
+                background: "linear-gradient(130deg, rgba(119,209,222,1) 0%, rgba(47,134,197,1) 25%, rgba(94,56,134,1) 50%, rgba(166,57,108,1) 75%, rgba(225,71,124,1) 100%)",
+      borderRadius: "6px",
+      height: "100%",}}>
+
+        <Typography variant="h4" sx={{ color: "#000",py:2}}>
           Sub-themes
         </Typography>
         <Divider />
@@ -348,8 +373,15 @@ const BackCard2 = () => {
 const BackCard3 = () => {
   return (
     <>
-      <Box sx={{}}>
-        <Typography variant="h4" sx={{ color: "#000", my: 2 }}>
+
+      <Box sx={{
+      background: "rgb(119,209,222)",
+                background: "linear-gradient(130deg, rgba(119,209,222,1) 0%, rgba(47,134,197,1) 25%, rgba(94,56,134,1) 50%, rgba(166,57,108,1) 75%, rgba(225,71,124,1) 100%)",
+      borderRadius: "6px",
+      height: "100%",}}>
+
+
+        <Typography variant="h4" sx={{ color: "#000",py:2}}>
           Sub-themes
         </Typography>
         <Divider />
@@ -402,8 +434,14 @@ const BackCard3 = () => {
 const BackCard4 = () => {
   return (
     <>
-      <Box sx={{}}>
-        <Typography variant="h4" sx={{ color: "#000", my: 2 }}>
+
+      <Box sx={{
+      background: "rgb(119,209,222)",
+                background: "linear-gradient(130deg, rgba(119,209,222,1) 0%, rgba(47,134,197,1) 25%, rgba(94,56,134,1) 50%, rgba(166,57,108,1) 75%, rgba(225,71,124,1) 100%)",
+      borderRadius: "6px",
+      height: "100%",}}>
+
+        <Typography variant="h4" sx={{ color: "#000",py:2}}>
           Sub-themes
         </Typography>
         <Divider />
@@ -456,8 +494,14 @@ const BackCard4 = () => {
 const BackCard5 = () => {
   return (
     <>
-      <Box sx={{}}>
-        <Typography variant="h4" sx={{ color: "#000", my: 2 }}>
+
+      <Box sx={{
+      background: "rgb(119,209,222)",
+                background: "linear-gradient(130deg, rgba(119,209,222,1) 0%, rgba(47,134,197,1) 25%, rgba(94,56,134,1) 50%, rgba(166,57,108,1) 75%, rgba(225,71,124,1) 100%)",
+      borderRadius: "6px",
+      height: "100%",}}>
+
+        <Typography variant="h4" sx={{ color: "#000",py:2}}>
           Sub-themes
         </Typography>
         <Divider />
@@ -520,8 +564,14 @@ const BackCard5 = () => {
 const BackCard6 = () => {
   return (
     <>
-      <Box sx={{}}>
-        <Typography variant="h4" sx={{ color: "#000", my: 2 }}>
+
+      <Box sx={{
+      background: "rgb(119,209,222)",
+                background: "linear-gradient(130deg, rgba(119,209,222,1) 0%, rgba(47,134,197,1) 25%, rgba(94,56,134,1) 50%, rgba(166,57,108,1) 75%, rgba(225,71,124,1) 100%)",
+      borderRadius: "6px",
+      height: "100%",}}>
+
+        <Typography variant="h4" sx={{ color: "#000",py:2}}>
           Sub-themes
         </Typography>
         <Divider />
@@ -567,8 +617,13 @@ const BackCard6 = () => {
 const BackCard7 = () => {
   return (
     <>
-      <Box sx={{}}>
-        <Typography variant="h4" sx={{ color: "#000", my: 2 }}>
+
+      <Box sx={{
+      background: "rgb(119,209,222)",
+                background: "linear-gradient(130deg, rgba(119,209,222,1) 0%, rgba(47,134,197,1) 25%, rgba(94,56,134,1) 50%, rgba(166,57,108,1) 75%, rgba(225,71,124,1) 100%)",
+      borderRadius: "6px",
+      height: "100%",}}>
+        <Typography variant="h4" sx={{ color: "#000",py:2}}>
           Sub-themes
         </Typography>
         <Divider />

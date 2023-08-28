@@ -33,19 +33,21 @@ export default function StaticCard() {
                 alignItems: "center",
                 my: 2,
                 mx: 4,
-
                 height: "370px",
                 width: "300px",
-                background: "linear-gradient(180deg, #63f5bd, #00ffff)",
+                // background: "linear-gradient(180deg, #63f5bd, #00ffff)",
+                background: "rgb(119,209,222)",
+                background: "linear-gradient(130deg, rgba(119,209,222,1) 0%, rgba(47,134,197,1) 25%, rgba(94,56,134,1) 50%, rgba(166,57,108,1) 75%, rgba(225,71,124,1) 100%)",
                 borderRadius: "8px",
                 boxShadow: "0px 0px 10px #000000",
               }}
             >
-              <AccessTimeIcon fontSize="large" sx={{ fontSize: "65px" }} />
+              <AccessTimeIcon fontSize="large" sx={{ fontSize: "65px"}} />
               <Typography
                 variant="h4"
                 textAlign="center"
-                sx={{ color: "#000" }}
+                sx={{ color: "#000000"
+              }}
               >
                 24 Hrs
               </Typography>
@@ -60,19 +62,23 @@ export default function StaticCard() {
                 width: "300px",
                 my: 2,
                 mx: 4,
-                background: "linear-gradient(180deg, #63f5bd, #00ffff)",
+                // background: "linear-gradient(180deg, #63f5bd, #00ffff)",
+                background: "rgb(119,209,222)",
+                background: "linear-gradient(130deg, rgba(119,209,222,1) 0%, rgba(47,134,197,1) 25%, rgba(94,56,134,1) 50%, rgba(166,57,108,1) 75%, rgba(225,71,124,1) 100%)",
                 borderRadius: "8px",
                 boxShadow: "0px 0px 10px #000000",
               }}
             >
               <IntegrationInstructionsIcon
                 fontSize="large"
-                sx={{ fontSize: "65px" }}
+                sx={{
+                  fontSize: "65px"
+              }}
               />
               <Typography
                 variant="h4"
                 textAlign="center"
-                sx={{ color: "#000" }}
+                sx={{ color: "#000000" }}
               >
                 8 Themes
               </Typography>
@@ -88,7 +94,9 @@ export default function StaticCard() {
                 width: "300px",
                 my: 2,
                 mx: 4,
-                background: "linear-gradient(180deg, #63f5bd, #00ffff)",
+                // background: "linear-gradient(180deg, #63f5bd, #00ffff)",
+                background: "rgb(119,209,222)",
+                background: "linear-gradient(130deg, rgba(119,209,222,1) 0%, rgba(47,134,197,1) 25%, rgba(94,56,134,1) 50%, rgba(166,57,108,1) 75%, rgba(225,71,124,1) 100%)",
                 borderRadius: "8px",
                 boxShadow: "0px 0px 10px #000000",
               }}
@@ -97,7 +105,7 @@ export default function StaticCard() {
               <Typography
                 variant="h4"
                 textAlign="center"
-                sx={{ color: "#000" }}
+                sx={{ color: "#000000" }}
               >
                 Cash Price 2.5 Lakhs
               </Typography>
@@ -112,19 +120,21 @@ export default function StaticCard() {
                 width: "300px",
                 my: 2,
                 mx: 4,
-                background: "linear-gradient(180deg, #63f5bd, #00ffff)",
+                // background: "linear-gradient(180deg, #63f5bd, #00ffff)",
+                background: "rgb(119,209,222)",
+                background: "linear-gradient(130deg, rgba(119,209,222,1) 0%, rgba(47,134,197,1) 25%, rgba(94,56,134,1) 50%, rgba(166,57,108,1) 75%, rgba(225,71,124,1) 100%)",
                 borderRadius: "8px",
                 boxShadow: "0px 0px 10px #000000",
               }}
             >
               <AccessibilityNewRoundedIcon
                 fontSize="large"
-                sx={{ fontSize: "65px" }}
+                sx={{ fontSize: "65px"}}
               />
               <Typography
                 variant="h4"
                 textAlign="center"
-                sx={{ color: "#000" }}
+                sx={{ color: "#000000" }}
               >
                 Free T-Shirts & Swags (For every participant)
               </Typography>
