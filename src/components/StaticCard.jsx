@@ -1,8 +1,8 @@
-import { PaymentsOutlined, Timer10Rounded, Timer3 } from "@mui/icons-material";
+import PaidIcon from '@mui/icons-material/Paid';
 import { Container, Stack, Typography, Box } from "@mui/material";
 import React from "react";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
-import IntegrationInstructionsIcon from "@mui/icons-material/IntegrationInstructions";
+import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
 import GroupsRoundedIcon from "@mui/icons-material/GroupsRounded";
 import AccessibilityNewRoundedIcon from "@mui/icons-material/AccessibilityNewRounded";
 import { motion } from "framer-motion";
@@ -60,14 +60,18 @@ export default function StaticCard() {
                 width: "300px",
                 my: 2,
                 mx: 4,
-                background: "linear-gradient(180deg, #63f5bd, #00ffff)",
+                background: "linear-gradient(180deg, #63f5bd, #00ffff)", 
+                //background: "linear-gradient(180deg, #FFA500, #ffffff)", orange and white
+                //background: "linear-gradient(180deg, #FF9951, #ffffff)", light orange
                 borderRadius: "8px",
                 boxShadow: "0px 0px 10px #000000",
+                borderColor: "linear-gradient(180deg, #63f5bd, #00ffff)"
               }}
             >
-              <IntegrationInstructionsIcon
+              <LocalLibraryIcon
                 fontSize="large"
-                sx={{ fontSize: "65px" }}
+                sx={{ fontSize: "100px" }}
+                paddingBottom="40px"
               />
               <Typography
                 variant="h4"
@@ -93,7 +97,7 @@ export default function StaticCard() {
                 boxShadow: "0px 0px 10px #000000",
               }}
             >
-              <PaymentsOutlined fontSize="large" sx={{ fontSize: "65px" }} />
+              <PaidIcon fontSize="large" sx={{ fontSize: "65px" }} />
               <Typography
                 variant="h4"
                 textAlign="center"
