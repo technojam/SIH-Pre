@@ -35,11 +35,11 @@ export default function StaticCard() {
                 mx: 4,
                 height: "370px",
                 width: "300px",
-                // background: "linear-gradient(180deg, #63f5bd, #00ffff)",
-                background: "rgb(119,209,222)",
-                background: "linear-gradient(130deg, rgba(119,209,222,1) 0%, rgba(47,134,197,1) 25%, rgba(94,56,134,1) 50%, rgba(166,57,108,1) 75%, rgba(225,71,124,1) 100%)",
+                background: "linear-gradient(180deg, #63f5bd, #00ffff)",
+                // background: "rgb(119,209,222)",
+                // background: "linear-gradient(130deg, rgba(119,209,222,1) 0%, rgba(47,134,197,1) 25%, rgba(94,56,134,1) 50%, rgba(166,57,108,1) 75%, rgba(225,71,124,1) 100%)",
                 borderRadius: "8px",
-                boxShadow: "0px 0px 10px #000000",
+                // boxShadow: "0px 0px 10px #000000",
               }}
             >
               <AccessTimeIcon fontSize="large" sx={{ fontSize: "65px"}} />

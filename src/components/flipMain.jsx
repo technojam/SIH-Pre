@@ -52,9 +52,9 @@ const FlipCard = (props) => {
         <div className="flip-card-front">
           <FrontCard />
         </div>
-        <div className="flip-card-back">
+        {/* <div className="flip-card-back">
           <BackCard />
-        </div>
+        </div> */}
       </div>
     </div>
   );
