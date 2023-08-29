@@ -19,6 +19,7 @@
     "react-dom": "^17.0.2",
     "react-feather": "^2.0.9",
     "react-flipcard": "^0.2.1",
+    "react-icons": "^4.10.1",
     "react-lottie": "^1.2.3",
     "react-material-ui-carousel": "^3.2.0",
     "react-particle-animation": "^2.0.2",
