@@ -1,3 +1,9 @@
+
+import { FaLeaf, FaSuitcase, FaShieldAlt, FaBookAtlas, FaExclamationTriangle } from 'react-icons/fa';
+import {IoFitnessSharp} from 'react-icons/io';
+import {GiAutoRepair,GiIndianPalace,GiMedicalPackAlt} from 'react-icons/gi';
+import {LiaRobotSolid} from 'react-icons/lia'
+import { MdOutlineEnergySavingsLeaf, MdSmartToy, MdMiscellaneousServices,MdAgriculture,MdElectricCar,MdEmojiTransportation } from 'react-icons/md';
 const data = [
     {
       "id": "1",
