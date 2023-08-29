@@ -2,16 +2,25 @@ import React from "react";
 import { Divider, Grid, Stack, Typography, Box, Link } from "@mui/material";
 import FlipCard from "./flipMain";
 import "./flip.css";
-import HealthAndSafetyIcon from "@mui/icons-material/HealthAndSafety";
-import SchoolIcon from "@mui/icons-material/School";
-import CarRentalRoundedIcon from "@mui/icons-material/CarRentalRounded";
-import MapsHomeWorkRoundedIcon from "@mui/icons-material/MapsHomeWorkRounded";
-import SettingsEthernetRoundedIcon from "@mui/icons-material/SettingsEthernetRounded";
-import QrCodeScannerRoundedIcon from "@mui/icons-material/QrCodeScannerRounded";
-import AddBusinessIcon from "@mui/icons-material/AddBusiness";
-import Drone from "../assets/drone-svgrepo-com (1).svg";
+import HealthAndSafetyIcon from "@mui/icons-material/DirectionsRun";
+import SchoolIcon from "@mui/icons-material/DevicesOther";
+import MapsHomeWorkRoundedIcon from "@mui/icons-material/Agriculture";
+import Medtech from '@mui/icons-material/Biotech';
+import Agriculture from '@mui/icons-material/DinnerDining';
+import Smart from '@mui/icons-material/BluetoothDrive';
+import Transportation from '@mui/icons-material/LocalShipping';
+import Robotics from '@mui/icons-material/SmartToy';
+import Clean from '@mui/icons-material/Yard';
+import Tourism from '@mui/icons-material/AirplaneTicket';
+import Renewable from '@mui/icons-material/Bolt';
+import Blockchain from '@mui/icons-material/Https';
+import Education from '@mui/icons-material/CastForEducation';
+import Disaster from '@mui/icons-material/Public';
+import Toys from '@mui/icons-material/Toys';
+import Anything from '@mui/icons-material/HighlightAlt';
 
 import { Divide } from "react-feather";
+
 const FrontCard = () => (
   <Box
     sx={{
@@ -23,10 +32,10 @@ const FrontCard = () => (
     <SchoolIcon sx={{ fontSize: "100px", mt: 2 }} />
     <Box sx={{ py: 2 }}>
       <Typography variant="h4" sx={{ color: "#000" }}>
-        EdTech
+        Smart Automation
       </Typography>
-      <Typography variant="h5" sx={{ color: "#000" }}>
-        Pioneering education
+      <Typography variant="h6" sx={{ color: "#000"}}>
+        Increase the Efficiency
       </Typography>
       <Typography variant="subtitle1" sx={{ color: "#000", my: 1 }}>
         Flip for Sub-themes
@@ -45,9 +54,9 @@ const FrontCard1 = () => (
     <HealthAndSafetyIcon sx={{ fontSize: "100px", mt: 2 }} />
     <Box sx={{ py: 2 }}>
       <Typography variant="h4" sx={{ color: "#000" }}>
-        Health Tech
+        Fitness & Sports
       </Typography>
-      <Typography variant="h5" sx={{ color: "#000" }}>
+      <Typography variant="h6" sx={{ color: "#000" }}>
         Health Care Solutions
       </Typography>
       <Typography variant="subtitle1" sx={{ color: "#000", my: 1 }}>
@@ -67,10 +76,10 @@ const FrontCard2 = () => (
     <MapsHomeWorkRoundedIcon sx={{ fontSize: "100px", mt: 2 }} />
     <Box sx={{ py: 2 }}>
       <Typography variant="h4" sx={{ color: "#000" }}>
-        Sustainable Energy
+        Heritage & Culture
       </Typography>
-      <Typography variant="h5" sx={{ color: "#000" }}>
-        Energy Conservation
+      <Typography variant="h6" sx={{ color: "#000" }}>
+         The Golden Bird
       </Typography>
       <Typography variant="subtitle1" sx={{ color: "#000", my: 1 }}>
         Flip for Sub-themes
@@ -86,13 +95,13 @@ const FrontCard3 = () => (
       height: "100%",
     }}
   >
-    <SettingsEthernetRoundedIcon sx={{ fontSize: "100px", mt: 2 }} />
+    <Medtech sx={{ fontSize: "100px", mt: 2 }} />
     <Box sx={{ py: 2 }}>
       <Typography variant="h4" sx={{ color: "#000" }}>
-        Fin Tech
+        Healthcare
       </Typography>
-      <Typography variant="h5" sx={{ color: "#000" }}>
-        Financial Solutions
+      <Typography variant="h6" sx={{ color: "#000" }}>
+        Utilization of biological Systems
       </Typography>
       <Typography variant="subtitle1" sx={{ color: "#000", my: 1 }}>
         Flip for Sub-themes
@@ -108,13 +117,13 @@ const FrontCard4 = () => (
       height: "100%",
     }}
   >
-    <AddBusinessIcon sx={{ fontSize: "100px", mt: 2 }} />
+    <Agriculture sx={{ fontSize: "100px", mt: 2 }} />
     <Box sx={{ py: 2 }}>
       <Typography variant="h4" sx={{ color: "#000" }}>
-        Tourism
+        Food Tech
       </Typography>
-      <Typography variant="h5" sx={{ color: "#000" }}>
-        Tourism solution
+      <Typography variant="h6" sx={{ color: "#000" }}>
+        Rural Development & Agriculture
       </Typography>
       <Typography variant="subtitle1" sx={{ color: "#000", my: 1 }}>
         Flip for Sub-themes
@@ -130,13 +139,13 @@ const FrontCard5 = () => (
       height: "100%",
     }}
   >
-    <CarRentalRoundedIcon sx={{ fontSize: "100px", mt: 2 }} />
+    <Smart sx={{ fontSize: "100px", mt: 2 }} />
     <Box sx={{ py: 2 }}>
       <Typography variant="h4" sx={{ color: "#000" }}>
-        Auto Tech
+        Smart Vehicles
       </Typography>
-      <Typography variant="h5" sx={{ color: "#000" }}>
-        Auto Tech
+      <Typography variant="h6" sx={{ color: "#000" }}>
+        Intelligent Devices
       </Typography>
       <Typography variant="subtitle1" sx={{ color: "#000", my: 1 }}>
         Flip for Sub-themes
@@ -152,13 +161,13 @@ const FrontCard6 = () => (
       height: "100%",
     }}
   >
-    <QrCodeScannerRoundedIcon sx={{ fontSize: "100px", mt: 2 }} />
+    <Transportation sx={{ fontSize: "100px", mt: 2 }} />
     <Box sx={{ py: 2 }}>
       <Typography variant="h4" sx={{ color: "#000" }}>
-        General Tech
+        Transportation
       </Typography>
-      <Typography variant="h5" sx={{ color: "#000" }}>
-        General Tech
+      <Typography variant="h6" sx={{ color: "#000" }}>
+        Growing pressures on the resources
       </Typography>
       <Typography variant="subtitle1" sx={{ color: "#000", my: 1 }}>
         Flip for Sub-themes
@@ -175,11 +184,11 @@ const FrontCard7 = () => (
     }}
   >
     <Box sx={{ py: 2 }}>
-      <img src={Drone} height="100" width="200" />
+    <Robotics sx={{ fontSize: "100px", mt: 2 }} />
       <Typography variant="h4" sx={{ color: "#000" }}>
-        UAV/Drone
+        Robotics/Drone
       </Typography>
-      <Typography variant="h5" sx={{ color: "#000" }}>
+      <Typography variant="h6" sx={{ color: "#000" }}>
         Remote Solutions
       </Typography>
       <Typography variant="subtitle1" sx={{ color: "#000", my: 1 }}>
@@ -188,48 +197,182 @@ const FrontCard7 = () => (
     </Box>
   </Box>
 );
-
-const BackCard = () => {
-  return (
-    <Box sx={{}}>
-      <Typography variant="h4" sx={{ color: "#FAFAFA", my: 2 }}>
-        Sub-themes
+const FrontCard8 = () => (
+  <Box
+    sx={{
+      background: "linear-gradient(180deg, #13b3be,#85fcfc)",
+      borderRadius: "6px",
+      height: "100%",
+    }}
+  >
+    <Box sx={{ py: 2 }}>
+    <Clean sx={{ fontSize: "100px", mt: 2 }} />
+      <Typography variant="h4" sx={{ color: "#000" }}>
+        Green Technology
       </Typography>
-      <Divider />
-
-      <Box sx={{ py: 2 }}>
-        <Typography
-          variant="subtitle1"
-          textAlign="left"
-          sx={{ color: "#000", px: 2, fontWeight: "500" }}
-        >
-          1) Ed. tech
-        </Typography>
-        <Typography
-          variant="subtitle1"
-          textAlign="left"
-          sx={{ color: "#000", px: 2, fontWeight: "500" }}
-        >
-          2) Smart Education
-        </Typography>
-        <Typography
-          variant="subtitle1"
-          textAlign="left"
-          sx={{ color: "#000", p: 2, fontWeight: "500" }}
-        >
-          For more information:
-        </Typography>
-        <Link>
-          <Typography variant="subtitle1" textAlign="left" sx={{ p: 2, pt: 0 }}>
-            <a href="https://www.sih.gov.in/sih2022#sih2020themes">
-              Click Here
-            </a>
-          </Typography>
-        </Link>
-      </Box>
+      <Typography variant="h6" sx={{ color: "#000" }}>
+        Improve sanitization System
+      </Typography>
+      <Typography variant="subtitle1" sx={{ color: "#000", my: 1 }}>
+        Flip for Sub-themes
+      </Typography>
     </Box>
-  );
-};
+  </Box>
+);
+const FrontCard9 = () => (
+  <Box
+    sx={{
+      background: "linear-gradient(180deg, #13b3be,#85fcfc)",
+      borderRadius: "6px",
+      height: "100%",
+    }}
+  >
+    <Box sx={{ py: 2 }}>
+    <Tourism sx={{ fontSize: "100px", mt: 2 }} />
+      <Typography variant="h4" sx={{ color: "#000" }}>
+        Tourism
+      </Typography>
+      <Typography variant="h6" sx={{ color: "#000" }}>
+        Tourism Industries like hotels
+      </Typography>
+      <Typography variant="subtitle1" sx={{ color: "#000", my: 1 }}>
+        Flip for Sub-themes
+      </Typography>
+    </Box>
+  </Box>
+);
+const FrontCard10 = () => (
+  <Box
+    sx={{
+      background: "linear-gradient(180deg, #13b3be,#85fcfc)",
+      borderRadius: "6px",
+      height: "100%",
+    }}
+  >
+    <Box sx={{ py: 2 }}>
+    <Renewable sx={{ fontSize: "100px", mt: 2 }} />
+      <Typography variant="h4" sx={{ color: "#000" }}>
+        Renewable Energy
+      </Typography>
+      <Typography variant="h6" sx={{ color: "#000" }}>
+        sustainable sources
+      </Typography>
+      <Typography variant="subtitle1" sx={{ color: "#000", my: 1 }}>
+        Flip for Sub-themes
+      </Typography>
+    </Box>
+  </Box>
+);
+const FrontCard11 = () => (
+  <Box
+    sx={{
+      background: "linear-gradient(180deg, #13b3be,#85fcfc)",
+      borderRadius: "6px",
+      height: "100%",
+    }}
+  >
+    <Box sx={{ py: 2 }}>
+    <Blockchain sx={{ fontSize: "100px", mt: 2 }} />
+      <Typography variant="h4" sx={{ color: "#000" }}>
+        Blockchain/Cyber
+      </Typography>
+      <Typography variant="h6" sx={{ color: "#000" }}>
+        Digital Info that powers
+      </Typography>
+      <Typography variant="subtitle1" sx={{ color: "#000", my: 1 }}>
+        Flip for Sub-themes
+      </Typography>
+    </Box>
+  </Box>
+);
+const FrontCard12 = () => (
+  <Box
+    sx={{
+      background: "linear-gradient(180deg, #13b3be,#85fcfc)",
+      borderRadius: "6px",
+      height: "100%",
+    }}
+  >
+    <Box sx={{ py: 2 }}>
+    <Education sx={{ fontSize: "100px", mt: 2 }} />
+      <Typography variant="h4" sx={{ color: "#000" }}>
+        Smart Education
+      </Typography>
+      <Typography variant="h6" sx={{ color: "#000" }}>
+        Remote Solutions
+      </Typography>
+      <Typography variant="subtitle1" sx={{ color: "#000", my: 1 }}>
+        Flip for Sub-themes
+      </Typography>
+    </Box>
+  </Box>
+);
+const FrontCard13 = () => (
+  <Box
+    sx={{
+      background: "linear-gradient(180deg, #13b3be,#85fcfc)",
+      borderRadius: "6px",
+      height: "100%",
+    }}
+  >
+    <Box sx={{ py: 2 }}>
+    <Disaster sx={{ fontSize: "100px", mt: 2 }} />
+      <Typography variant="h4" sx={{ color: "#000" }}>
+        Disaster Management
+      </Typography>
+      <Typography variant="h6" sx={{ color: "#000" }}>
+        Ideas for risk mitigation
+      </Typography>
+      <Typography variant="subtitle1" sx={{ color: "#000", my: 1 }}>
+        Flip for Sub-themes
+      </Typography>
+    </Box>
+  </Box>
+);
+const FrontCard14 = () => (
+  <Box
+    sx={{
+      background: "linear-gradient(180deg, #13b3be,#85fcfc)",
+      borderRadius: "6px",
+      height: "100%",
+    }}
+  >
+    <Box sx={{ py: 2 }}>
+    <Toys sx={{ fontSize: "100px", mt: 2 }} />
+      <Typography variant="h4" sx={{ color: "#000" }}>
+        Toys
+      </Typography>
+      <Typography variant="h6" sx={{ color: "#000" }}>
+        Creative Mind
+      </Typography>
+      <Typography variant="subtitle1" sx={{ color: "#000", my: 1 }}>
+        Flip for Sub-themes
+      </Typography>
+    </Box>
+  </Box>
+);
+const FrontCard15 = () => (
+  <Box
+    sx={{
+      background: "linear-gradient(180deg, #13b3be,#85fcfc)",
+      borderRadius: "6px",
+      height: "100%",
+    }}
+  >
+    <Box sx={{ py: 2 }}>
+    <Anything sx={{ fontSize: "100px", mt: 2 }} />
+      <Typography variant="h4" sx={{ color: "#000" }}>
+        Miscellaneous
+      </Typography>
+      <Typography variant="h6" sx={{ color: "#000" }}>
+        Ideas in teritary sectors
+      </Typography>
+      <Typography variant="subtitle1" sx={{ color: "#000", my: 1 }}>
+        Flip for Sub-themes
+      </Typography>
+    </Box>
+  </Box>
+);
 const BackCard1 = () => {
   return (
     <Box sx={{}}>
@@ -244,32 +387,80 @@ const BackCard1 = () => {
           textAlign="left"
           sx={{ color: "#000", px: 2, fontWeight: "500" }}
         >
-          1) Health Tech
+          1) Meantal Health
         </Typography>
         <Typography
           variant="subtitle1"
           textAlign="left"
           sx={{ color: "#000", px: 2, fontWeight: "500" }}
         >
-          2) Fitness
-        </Typography>
-        <Typography
-          variant="subtitle1"
-          textAlign="left"
-          sx={{ color: "#000", px: 2, fontWeight: "500" }}
-        >
-          3) Sports
+          2) Physical Health
         </Typography>
         <Typography
           variant="subtitle1"
           textAlign="left"
           sx={{ color: "#000", p: 2, fontWeight: "500" }}
         >
-          For more information:
+          Read the Problem Statements:
+        </Typography>
+        <Link style={{textDecorationLine:'none'}}>
+          <Typography variant="subtitle1" textAlign="left" sx={{ p: 2, pt: 0 }}>
+            <a href="https://www.sih.gov.in/sih2023PS?technology_bucket=NA==&category=QWxs&organization=QWxs&organization_type=QWxs" target="_blank">
+              Click Here
+            </a>
+          </Typography>
+        </Link>
+      </Box>
+    </Box>
+  );
+};
+const BackCard = () => {
+  return (
+    <Box sx={{}}>
+      <Typography variant="h4" sx={{ color: "#000", my: 2 }}>
+        Sub-themes
+      </Typography>
+      <Divider />
+
+      <Box sx={{ py: 2 }}>
+        <Typography
+          variant="subtitle1"
+          textAlign="left"
+          sx={{ color: "#000", px: 2, fontWeight: "500" }}
+        >
+          1) Fixed Automation 
+        </Typography>
+        <Typography
+          variant="subtitle1"
+          textAlign="left"
+          sx={{ color: "#000", px: 2, fontWeight: "500" }}
+        >
+          2) Programmable Automation
+        </Typography>
+        <Typography
+          variant="subtitle1"
+          textAlign="left"
+          sx={{ color: "#000", px: 2, fontWeight: "500" }}
+        >
+          3) Flexible Automation
+        </Typography>
+        <Typography
+          variant="subtitle1"
+          textAlign="left"
+          sx={{ color: "#000", px: 2, fontWeight: "500" }}
+        >
+          4) Integrated Automation
+        </Typography>
+        <Typography
+          variant="subtitle1"
+          textAlign="left"
+          sx={{ color: "#000", p: 2, fontWeight: "500" }}
+        >
+          Read the Problem Statements:
         </Typography>
         <Link>
           <Typography variant="subtitle1" textAlign="left" sx={{ p: 2, pt: 0 }}>
-            <a href="https://www.sih.gov.in/sih2022#sih2020themes">
+            <a href="https://www.sih.gov.in/sih2023PS?technology_bucket=MTA=&category=QWxs&organization=QWxs&organization_type=QWxs" target="_blank">
               Click Here
             </a>
           </Typography>
@@ -293,53 +484,30 @@ const BackCard2 = () => {
             textAlign="left"
             sx={{ color: "#000", px: 2, fontWeight: "500" }}
           >
-            1) Sustainable Energy
+            1) Rich Cultural Heritage
           </Typography>
           <Typography
             variant="subtitle1"
             textAlign="left"
             sx={{ color: "#000", px: 2, fontWeight: "500" }}
           >
-            2) Clean and Green Tech
+            2) One District One Product
           </Typography>
+          
           <Typography
-            variant="subtitle1"
-            textAlign="left"
-            sx={{ color: "#000", px: 2, fontWeight: "500" }}
-          >
-            3) Renuable
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            textAlign="left"
-            sx={{ color: "#000", px: 2, fontWeight: "500" }}
-          >
-            4) Sustainable Energy
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            textAlign="left"
-            sx={{ color: "#000", px: 2, fontWeight: "500" }}
-          >
-            5) Disaster Management
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            textAlign="left"
-            sx={{ color: "#000", px: 2, fontWeight: "500" }}
-          >
-            6) Agriculture Tech
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            textAlign="left"
-            sx={{ color: "#000", pl: 2, fontWeight: "500" }}
-          >
-            For more information:
-            <a href="https://www.sih.gov.in/sih2022#sih2020themes">
+          variant="subtitle1"
+          textAlign="left"
+          sx={{ color: "#000", p: 2, fontWeight: "500" }}
+        >
+          Read the Problem Statements:
+        </Typography>
+        <Link>
+          <Typography variant="subtitle1" textAlign="left" sx={{ p: 2, pt: 0 }}>
+            <a href="https://www.sih.gov.in/sih2023PS?technology_bucket=NQ==&category=QWxs&organization=QWxs&organization_type=QWxs" target="_blank">
               Click Here
             </a>
           </Typography>
+        </Link>
         </Box>
       </Box>
     </>
@@ -360,28 +528,28 @@ const BackCard3 = () => {
             textAlign="left"
             sx={{ color: "#000", px: 2, fontWeight: "500" }}
           >
-            1) Fin Tech
+            1) MED Tech
           </Typography>
           <Typography
             variant="subtitle1"
             textAlign="left"
             sx={{ color: "#000", px: 2, fontWeight: "500" }}
           >
-            2) Block Chain
+            2) BIO Tech
           </Typography>
           <Typography
             variant="subtitle1"
             textAlign="left"
             sx={{ color: "#000", px: 2, fontWeight: "500" }}
           >
-            3) Cyber Security
+            3) HEALTH Tech
           </Typography>
           <Typography
             variant="subtitle1"
             textAlign="left"
             sx={{ color: "#000", p: 2, fontWeight: "500" }}
           >
-            For more information:
+            Read the Problem Statements::
           </Typography>
           <Link>
             <Typography
@@ -389,7 +557,7 @@ const BackCard3 = () => {
               textAlign="left"
               sx={{ p: 2, pt: 0 }}
             >
-              <a href="https://www.sih.gov.in/sih2022#sih2020themes">
+              <a href="https://www.sih.gov.in/sih2023PS?technology_bucket=Ng==&category=QWxs&organization=QWxs&organization_type=QWxs">
                 Click Here
               </a>
             </Typography>
@@ -414,28 +582,28 @@ const BackCard4 = () => {
             textAlign="left"
             sx={{ color: "#000", px: 2, fontWeight: "500" }}
           >
-            1) Tourism
+            1) Agriculture
           </Typography>
           <Typography
             variant="subtitle1"
             textAlign="left"
             sx={{ color: "#000", px: 2, fontWeight: "500" }}
           >
-            2) Heritage
+            2) Food Tech
           </Typography>
           <Typography
             variant="subtitle1"
             textAlign="left"
             sx={{ color: "#000", px: 2, fontWeight: "500" }}
           >
-            3) Culture
+            3) Rural Development
           </Typography>
           <Typography
             variant="subtitle1"
             textAlign="left"
             sx={{ color: "#000", p: 2, fontWeight: "500" }}
           >
-            For more information:
+            Read the Problem Statements::
           </Typography>
           <Link>
             <Typography
@@ -443,7 +611,7 @@ const BackCard4 = () => {
               textAlign="left"
               sx={{ p: 2, pt: 0 }}
             >
-              <a href="https://www.sih.gov.in/sih2022#sih2020themes">
+              <a href="https://www.sih.gov.in/sih2023PS?technology_bucket=MQ==&category=QWxs&organization=QWxs&organization_type=QWxs">
                 Click Here
               </a>
             </Typography>
@@ -468,28 +636,21 @@ const BackCard5 = () => {
             textAlign="left"
             sx={{ color: "#000", px: 2, fontWeight: "500" }}
           >
-            1) Auto Tech
+            1) RTOS
           </Typography>
           <Typography
             variant="subtitle1"
             textAlign="left"
             sx={{ color: "#000", px: 2, fontWeight: "500" }}
           >
-            2) Transportation
+            2) Support System for Dragline
           </Typography>
           <Typography
             variant="subtitle1"
             textAlign="left"
             sx={{ color: "#000", px: 2, fontWeight: "500" }}
           >
-            3) Logistics
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            textAlign="left"
-            sx={{ color: "#000", px: 2, fontWeight: "500" }}
-          >
-            4) Smart Vechicle
+            3) Monitoring through AI
           </Typography>
           <Typography
             variant="subtitle1"
@@ -503,11 +664,11 @@ const BackCard5 = () => {
             textAlign="left"
             sx={{ color: "#000", pl: 2, fontWeight: "500" }}
           >
-            For more information:
+            Read the Problem Statements::
           </Typography>
           <Link>
             <Typography variant="subtitle1" sx={{ pl: 2 }} textAlign="left">
-              <a href="https://www.sih.gov.in/sih2022#sih2020themes">
+              <a href="https://www.sih.gov.in/sih2023PS?technology_bucket=MTE=&category=QWxs&organization=QWxs&organization_type=QWxs">
                 Click Here
               </a>
             </Typography>
@@ -532,21 +693,21 @@ const BackCard6 = () => {
             textAlign="left"
             sx={{ color: "#000", px: 2, fontWeight: "500" }}
           >
-            1) General Tech
+            1) Transportaion
           </Typography>
           <Typography
             variant="subtitle1"
             textAlign="left"
             sx={{ color: "#000", px: 2, fontWeight: "500" }}
           >
-            2) Misc
+            2) Logistics
           </Typography>
           <Typography
             variant="subtitle1"
             textAlign="left"
             sx={{ color: "#000", p: 2, fontWeight: "500" }}
           >
-            For more information:
+            Read the Problem Statements::
           </Typography>
           <Link>
             <Typography
@@ -554,7 +715,7 @@ const BackCard6 = () => {
               textAlign="left"
               sx={{ p: 2, pt: 0 }}
             >
-              <a href="https://www.sih.gov.in/sih2022#sih2020themes">
+              <a href="https://www.sih.gov.in/sih2023PS?technology_bucket=MTM=&category=QWxs&organization=QWxs&organization_type=QWxs">
                 Click Here
               </a>
             </Typography>
@@ -578,7 +739,7 @@ const BackCard7 = () => {
             textAlign="left"
             sx={{ color: "#000", px: 2, fontWeight: "500" }}
           >
-            1) UAC
+            1) Robotics
           </Typography>
           <Typography
             variant="subtitle1"
@@ -587,19 +748,13 @@ const BackCard7 = () => {
           >
             2) Drones
           </Typography>
-          <Typography
-            variant="subtitle1"
-            textAlign="left"
-            sx={{ color: "#000", px: 2, fontWeight: "500" }}
-          >
-            3) Robotics
-          </Typography>
+          
           <Typography
             variant="subtitle1"
             textAlign="left"
             sx={{ color: "#000", p: 2, fontWeight: "500" }}
           >
-            For more information:
+            Read the Problem Statements::
           </Typography>
           <Link>
             <Typography
@@ -607,7 +762,7 @@ const BackCard7 = () => {
               textAlign="left"
               sx={{ p: 2, pt: 0 }}
             >
-              <a href="https://www.sih.gov.in/sih2022#sih2020themes">
+              <a href="https://www.sih.gov.in/sih2023PS?technology_bucket=OQ==&category=QWxs&organization=QWxs&organization_type=QWxs">
                 Click Here
               </a>
             </Typography>
@@ -617,6 +772,413 @@ const BackCard7 = () => {
     </>
   );
 };
+const BackCard8 = () => {
+  return (
+    <>
+      <Box sx={{}}>
+        <Typography variant="h4" sx={{ color: "#000", my: 2 }}>
+          Sub-themes
+        </Typography>
+        <Divider />
+        <Box sx={{ py: 2 }}>
+          <Typography
+            variant="subtitle1"
+            textAlign="left"
+            sx={{ color: "#000", px: 2, fontWeight: "500" }}
+          >
+            1) Waste Segregation
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            textAlign="left"
+            sx={{ color: "#000", px: 2, fontWeight: "500" }}
+          >
+            2) Digital Technology
+          </Typography>
+          
+          <Typography
+            variant="subtitle1"
+            textAlign="left"
+            sx={{ color: "#000", p: 2, fontWeight: "500" }}
+          >
+            Read the Problem Statements::
+          </Typography>
+          <Link>
+            <Typography
+              variant="subtitle1"
+              textAlign="left"
+              sx={{ p: 2, pt: 0 }}
+            >
+              <a href="https://www.sih.gov.in/sih2023PS?technology_bucket=Mw==&category=QWxs&organization=QWxs&organization_type=QWxs">
+                Click Here
+              </a>
+            </Typography>
+          </Link>
+        </Box>
+      </Box>
+    </>
+  );
+};
+const BackCard9 = () => {
+  return (
+    <>
+      <Box sx={{}}>
+        <Typography variant="h4" sx={{ color: "#000", my: 2 }}>
+          Sub-themes
+        </Typography>
+        <Divider />
+        <Box sx={{ py: 2 }}>
+          <Typography
+            variant="subtitle1"
+            textAlign="left"
+            sx={{ color: "#000", px: 2, fontWeight: "500" }}
+          >
+            1) Tourism industries
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            textAlign="left"
+            sx={{ color: "#000", px: 2, fontWeight: "500" }}
+          >
+            2) Misc
+          </Typography>
+          
+          <Typography
+            variant="subtitle1"
+            textAlign="left"
+            sx={{ color: "#000", p: 2, fontWeight: "500" }}
+          >
+            Read the Problem Statements::
+          </Typography>
+          <Link>
+            <Typography
+              variant="subtitle1"
+              textAlign="left"
+              sx={{ p: 2, pt: 0 }}
+            >
+              <a href="https://www.sih.gov.in/sih2023PS?technology_bucket=MTI=&category=QWxs&organization=QWxs&organization_type=QWxshttps://www.sih.gov.in/sih2023PS?technology_bucket=Mw==&category=QWxs&organization=QWxs&organization_type=QWxs">
+                Click Here
+              </a>
+            </Typography>
+          </Link>
+        </Box>
+      </Box>
+    </>
+  );
+};
+const BackCard10 = () => {
+  return (
+    <>
+      <Box sx={{}}>
+        <Typography variant="h4" sx={{ color: "#000", my: 2 }}>
+          Sub-themes
+        </Typography>
+        <Divider />
+        <Box sx={{ py: 2 }}>
+          <Typography
+            variant="subtitle1"
+            textAlign="left"
+            sx={{ color: "#000", px: 2, fontWeight: "500" }}
+          >
+            1) Generative Design
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            textAlign="left"
+            sx={{ color: "#000", px: 2, fontWeight: "500" }}
+          >
+            2) Sustainable ideation
+          </Typography>
+          
+          <Typography
+            variant="subtitle1"
+            textAlign="left"
+            sx={{ color: "#000", p: 2, fontWeight: "500" }}
+          >
+            Read the Problem Statements::
+          </Typography>
+          <Link>
+            <Typography
+              variant="subtitle1"
+              textAlign="left"
+              sx={{ p: 2, pt: 0 }}
+            >
+              <a href="https://www.sih.gov.in/sih2023PS?technology_bucket=OA==&category=QWxs&organization=QWxs&organization_type=QWxs">
+                Click Here
+              </a>
+            </Typography>
+          </Link>
+        </Box>
+      </Box>
+    </>
+  );
+};
+const BackCard11 = () => {
+  return (
+    <>
+      <Box sx={{}}>
+        <Typography variant="h4" sx={{ color: "#000", my: 2 }}>
+          Sub-themes
+        </Typography>
+        <Divider />
+        <Box sx={{ py: 2 }}>
+          <Typography
+            variant="subtitle1"
+            textAlign="left"
+            sx={{ color: "#000", px: 2, fontWeight: "500" }}
+          >
+            1) Block chain
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            textAlign="left"
+            sx={{ color: "#000", px: 2, fontWeight: "500" }}
+          >
+            2) Cyber security
+          </Typography>
+          
+          <Typography
+            variant="subtitle1"
+            textAlign="left"
+            sx={{ color: "#000", p: 2, fontWeight: "500" }}
+          >
+            Read the Problem Statements::
+          </Typography>
+          <Link>
+            <Typography
+              variant="subtitle1"
+              textAlign="left"
+              sx={{ p: 2, pt: 0 }}
+            >
+              <a href="https://www.sih.gov.in/sih2023PS?technology_bucket=Mg==&category=QWxs&organization=QWxs&organization_type=QWxs">
+                Click Here
+              </a>
+            </Typography>
+          </Link>
+        </Box>
+      </Box>
+    </>
+  );
+};
+const BackCard12 = () => {
+  return (
+    <>
+      <Box sx={{}}>
+        <Typography variant="h4" sx={{ color: "#000", my: 2 }}>
+          Sub-themes
+        </Typography>
+        <Divider />
+        <Box sx={{ py: 2 }}>
+          <Typography
+            variant="subtitle1"
+            textAlign="left"
+            sx={{ color: "#000", px: 2, fontWeight: "500" }}
+          >
+            1) Legal Awareness
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            textAlign="left"
+            sx={{ color: "#000", px: 2, fontWeight: "500" }}
+          >
+            2) Dropout Analysis
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            textAlign="left"
+            sx={{ color: "#000", px: 2, fontWeight: "500" }}
+          >
+            3) Verification System
+          </Typography>
+          
+          <Typography
+            variant="subtitle1"
+            textAlign="left"
+            sx={{ color: "#000", p: 2, fontWeight: "500" }}
+          >
+            Read the Problem Statements::
+          </Typography>
+          <Link>
+            <Typography
+              variant="subtitle1"
+              textAlign="left"
+              sx={{ p: 2, pt: 0 }}
+            >
+              <a href="https://www.sih.gov.in/sih2023PS?technology_bucket=MTU=&category=QWxs&organization=QWxs&organization_type=QWxs">
+                Click Here
+              </a>
+            </Typography>
+          </Link>
+        </Box>
+      </Box>
+    </>
+  );
+};
+const BackCard13 = () => {
+  return (
+    <>
+      <Box sx={{}}>
+        <Typography variant="h4" sx={{ color: "#000", my: 2 }}>
+          Sub-themes
+        </Typography>
+        <Divider />
+        <Box sx={{ py: 2 }}>
+          <Typography
+            variant="subtitle1"
+            textAlign="left"
+            sx={{ color: "#000", px: 2, fontWeight: "500" }}
+          >
+            1) Forecasts
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            textAlign="left"
+            sx={{ color: "#000", px: 2, fontWeight: "500" }}
+          >
+            2) Threat zone detection
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            textAlign="left"
+            sx={{ color: "#000", px: 2, fontWeight: "500" }}
+          >
+            3) AI-ML zone
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            textAlign="left"
+            sx={{ color: "#000", px: 2, fontWeight: "500" }}
+          >
+            3) Misc
+          </Typography>
+          
+          <Typography
+            variant="subtitle1"
+            textAlign="left"
+            sx={{ color: "#000", p: 2, fontWeight: "500" }}
+          >
+            Read the Problem Statements::
+          </Typography>
+          <Link>
+            <Typography
+              variant="subtitle1"
+              textAlign="left"
+              sx={{ p: 2, pt: 0 }}
+            >
+              <a href="https://www.sih.gov.in/sih2023PS?technology_bucket=MTQ=&category=QWxs&organization=QWxs&organization_type=QWxs">
+                Click Here
+              </a>
+            </Typography>
+          </Link>
+        </Box>
+      </Box>
+    </>
+  );
+};
+const BackCard14 = () => {
+  return (
+    <>
+      <Box sx={{}}>
+        <Typography variant="h4" sx={{ color: "#000", my: 2 }}>
+          Sub-themes
+        </Typography>
+        <Divider />
+        <Box sx={{ py: 2 }}>
+          <Typography
+            variant="subtitle1"
+            textAlign="left"
+            sx={{ color: "#000", px: 2, fontWeight: "500" }}
+          >
+            1) Toys
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            textAlign="left"
+            sx={{ color: "#000", px: 2, fontWeight: "500" }}
+          >
+            2) Games
+          </Typography>
+          
+          <Typography
+            variant="subtitle1"
+            textAlign="left"
+            sx={{ color: "#000", p: 2, fontWeight: "500" }}
+          >
+            Read the Problem Statements::
+          </Typography>
+          <Link>
+            <Typography
+              variant="subtitle1"
+              textAlign="left"
+              sx={{ p: 2, pt: 0 }}
+            >
+              <a href="https://www.sih.gov.in/sih2023PS?technology_bucket=MTY=&category=QWxs&organization=QWxs&organization_type=QWxs">
+                Click Here
+              </a>
+            </Typography>
+          </Link>
+        </Box>
+      </Box>
+    </>
+  );
+};
+const BackCard15 = () => {
+  return (
+    <>
+      <Box sx={{}}>
+        <Typography variant="h4" sx={{ color: "#000", my: 2 }}>
+          Sub-themes
+        </Typography>
+        <Divider />
+        <Box sx={{ py: 2 }}>
+          <Typography
+            variant="subtitle1"
+            textAlign="left"
+            sx={{ color: "#000", px: 2, fontWeight: "500" }}
+          >
+            1) Hospitality
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            textAlign="left"
+            sx={{ color: "#000", px: 2, fontWeight: "500" }}
+          >
+            2) Financial Services
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            textAlign="left"
+            sx={{ color: "#000", px: 2, fontWeight: "500" }}
+          >
+            2) Entertainment and Retail
+          </Typography>
+          
+          <Typography
+            variant="subtitle1"
+            textAlign="left"
+            sx={{ color: "#000", p: 2, fontWeight: "500" }}
+          >
+            Read the Problem Statements::
+          </Typography>
+          <Link>
+            <Typography
+              variant="subtitle1"
+              textAlign="left"
+              sx={{ p: 2, pt: 0 }}
+            >
+              <a href="https://www.sih.gov.in/sih2023PS?technology_bucket=Nw==&category=QWxs&organization=QWxs&organization_type=QWxs">
+                Click Here
+              </a>
+            </Typography>
+          </Link>
+        </Box>
+      </Box>
+    </>
+  );
+};
+
+
+
 const Themeportion = () => {
   return (
     <div style={{ background: "#070c1d" }}>
@@ -727,6 +1289,110 @@ const Themeportion = () => {
                 width={400}
                 FrontCard={FrontCard7}
                 BackCard={BackCard7}
+              />
+            </Box>
+          </Box>
+        </Stack>
+      </Box>
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <Stack sx={{ py: 1 }} direction="row" spacing={4}>
+          <Box
+            sx={{
+              display: "flex",
+              flexWrap: "wrap",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <Box sx={{ my: 1, mx: 4 }}>
+              <FlipCard
+                height={320}
+                width={300}
+                FrontCard={FrontCard8}
+                BackCard={BackCard8}
+              />
+            </Box>
+            <Box sx={{ my: 2, mx: 4 }}>
+              <FlipCard
+                height={300}
+                width={400}
+                FrontCard={FrontCard9}
+                BackCard={BackCard9}
+              />
+            </Box>
+            <Box sx={{ my: 2, mx: 4 }}>
+              <FlipCard
+                height={300}
+                width={400}
+                FrontCard={FrontCard10}
+                BackCard={BackCard10}
+              />
+            </Box>
+            <Box sx={{ my: 2, mx: 4 }}>
+              <FlipCard
+                height={300}
+                width={400}
+                FrontCard={FrontCard11}
+                BackCard={BackCard11}
+              />
+            </Box>
+          </Box>
+        </Stack>
+      </Box>
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <Stack sx={{ py: 1 }} direction="row" spacing={4}>
+          <Box
+            sx={{
+              display: "flex",
+              flexWrap: "wrap",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <Box sx={{ my: 1, mx: 4 }}>
+              <FlipCard
+                height={320}
+                width={300}
+                FrontCard={FrontCard12}
+                BackCard={BackCard12}
+              />
+            </Box>
+            <Box sx={{ my: 2, mx: 4 }}>
+              <FlipCard
+                height={300}
+                width={400}
+                FrontCard={FrontCard13}
+                BackCard={BackCard13}
+              />
+            </Box>
+            <Box sx={{ my: 2, mx: 4 }}>
+              <FlipCard
+                height={300}
+                width={400}
+                FrontCard={FrontCard14}
+                BackCard={BackCard14}
+              />
+            </Box>
+            <Box sx={{ my: 2, mx: 4 }}>
+              <FlipCard
+                height={300}
+                width={400}
+                FrontCard={FrontCard15}
+                BackCard={BackCard15}
               />
             </Box>
           </Box>
