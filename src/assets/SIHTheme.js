@@ -1,10 +1,14 @@
 import { FaLeaf, FaSuitcase, FaShieldAlt, FaBookAtlas, FaExclamationTriangle } from 'react-icons/fa';
-import { MdOutlineEnergySavingsLeaf, MdSmartToy, MdMiscellaneousServices } from 'react-icons/md';
+import {IoFitnessSharp} from 'react-icons/io';
+import {GiAutoRepair,GiIndianPalace,GiMedicalPackAlt} from 'react-icons/gi';
+import {LiaRobotSolid} from 'react-icons/lia'
+import { MdOutlineEnergySavingsLeaf, MdSmartToy, MdMiscellaneousServices,MdAgriculture,MdElectricCar,MdEmojiTransportation } from 'react-icons/md';
 
 export const data = [
   {
     "id": "1",
     "title": "Smart Automation",
+    "icon":<GiAutoRepair/>,
     "description": "Ideas focused on the intelligent use of resources for transforming and advancements of technology with combining the artificial intelligence to explore more various sources and get valuable insights.",
     "ps": [
       {
@@ -348,6 +352,7 @@ export const data = [
   {
     "id": "2",
     "title": "Fitness & Sports",
+    "icon":<IoFitnessSharp/>
     "description": "Ideas that can boost fitness activities and assist in keeping fit.",
     "ps": [
       {
@@ -379,6 +384,7 @@ export const data = [
   {
     "id": "3",
     "title": "Heritage & Culture",
+    "icon":<GiIndianPalace/>,
     "description": "Ideas that showcase the rich cultural heritage and traditions of India.",
     "ps": [
       {
@@ -410,6 +416,7 @@ export const data = [
   {
     "id": "4",
     "title": "MedTech/BioTech/ HealthTech",
+    "icon":<GiMedicalPackAlt/>,
     "description": "Cutting-edge technology in these sectors continues to be in demand. Recent shifts in healthcare trends, growing populations also present an array of opportunities for innovation.",
     "ps": [
       {
@@ -585,6 +592,7 @@ export const data = [
   {
     "id": "5",
     "title": "Agriculture, FoodTech & Rural Development",
+    "icon":<MdAgriculture/>,
     "description": "Developing solutions, keeping in mind the need to enhance the primary sector of India - Agriculture and to manage and process our agriculture produce.",
     "ps": [
       {
@@ -728,6 +736,7 @@ export const data = [
   {
     "id": "6",
     "title": "Smart Vehicles",
+    "icon":<MdElectricCar/>,
     "description": "Creating intelligent devices to improve commutation sector.",
     "ps": [
       {
@@ -791,6 +800,7 @@ export const data = [
   {
     "id": "7",
     "title": "Transportation & Logistics",
+    "icon":<MdEmojiTransportation/>,
     "description": "Submit your ideas to address the growing pressures on the city\u2019s resources, transport networks, and logistic infrastructure.",
     "ps": [
       {
@@ -910,6 +920,7 @@ export const data = [
   {
     "id": "8",
     "title": "Robotics and Drones",
+    "icon":<LiaRobotSolid/>,
     "description": "There is a need to design drones and robots that can solve some of the pressing challenges of India such as handling medical emergencies, search and rescue operations, etc.",
     "ps": [
       {
