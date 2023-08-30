@@ -119,17 +119,14 @@
   border-radius: 10px;
 }
 
-.cardtheme{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  text-align: center;
-  color: white;
-  transform: rotateY(180deg);
-  z-index: 1;
-}
 
+.cardtheme {
+  background-color: transparent;
+  width: 290px;
+  height: 300px;
+  perspective: 1000px;
+  cursor: pointer;
+}
 .cardtheme::before{
   content: '';
     position: absolute;
@@ -150,8 +147,18 @@
     width: 100%;
     height: 100%;
     background: linear-gradient(120deg, #ff9a33, #138707);
-    filter:blur(30px);
+    filter:blur(5px);
     z-index: -1;
     border-radius: 10px;
+}
+
+.cartcolor{
+  position:absolute;
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  background:white;
+  border-radius: 10px;
 }
 
