@@ -352,7 +352,7 @@ export const data = [
   {
     "id": "2",
     "title": "Fitness & Sports",
-    "icon":<IoFitnessSharp/>
+    "icon":<IoFitnessSharp/>,
     "description": "Ideas that can boost fitness activities and assist in keeping fit.",
     "ps": [
       {
