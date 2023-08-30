@@ -6,6 +6,7 @@ import IntegrationInstructionsIcon from "@mui/icons-material/IntegrationInstruct
 import GroupsRoundedIcon from "@mui/icons-material/GroupsRounded";
 import AccessibilityNewRoundedIcon from "@mui/icons-material/AccessibilityNewRounded";
 import { motion } from "framer-motion";
+
 export default function StaticCard() {
   return (
     <motion.div style={{ background: "#070c1d", paddingTop: "5em" }}>
@@ -143,5 +144,7 @@ export default function StaticCard() {
         </Stack>
       </Container>
     </motion.div>
-  );
+    );
+  }
 }
+

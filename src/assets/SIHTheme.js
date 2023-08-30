@@ -4,11 +4,11 @@ import {GiAutoRepair,GiIndianPalace,GiMedicalPackAlt} from 'react-icons/gi';
 import {LiaRobotSolid} from 'react-icons/lia'
 import { MdOutlineEnergySavingsLeaf, MdSmartToy, MdMiscellaneousServices,MdAgriculture,MdElectricCar,MdEmojiTransportation } from 'react-icons/md';
 
-const data = [
+export const data = [
   {
     "id": "1",
     "title": "Smart Automation",
-    "icon":<GiAutoRepair sx={{ fontSize: "80px", margin: "-2px" }}/>,
+    "icon":<GiAutoRepair/>,
     "description": "Ideas focused on the intelligent use of resources for transforming and advancements of technology with combining the artificial intelligence to explore more various sources and get valuable insights.",
     "ps": [
       {
@@ -352,7 +352,7 @@ const data = [
   {
     "id": "2",
     "title": "Fitness & Sports",
-    "icon":<IoFitnessSharp sx={{ fontSize: "80px", margin: "-2px" }}/>,
+    "icon":<IoFitnessSharp/>,
     "description": "Ideas that can boost fitness activities and assist in keeping fit.",
     "ps": [
       {
@@ -384,7 +384,7 @@ const data = [
   {
     "id": "3",
     "title": "Heritage & Culture",
-    "icon":<GiIndianPalace sx={{ fontSize: "80px", margin: "-2px" }}/>,
+    "icon":<GiIndianPalace/>,
     "description": "Ideas that showcase the rich cultural heritage and traditions of India.",
     "ps": [
       {
@@ -416,7 +416,7 @@ const data = [
   {
     "id": "4",
     "title": "MedTech/BioTech/ HealthTech",
-    "icon":<GiMedicalPackAlt sx={{ fontSize: "80px", margin: "-2px" }}/>,
+    "icon":<GiMedicalPackAlt/>,
     "description": "Cutting-edge technology in these sectors continues to be in demand. Recent shifts in healthcare trends, growing populations also present an array of opportunities for innovation.",
     "ps": [
       {
@@ -592,7 +592,7 @@ const data = [
   {
     "id": "5",
     "title": "Agriculture, FoodTech & Rural Development",
-    "icon":<MdAgriculture sx={{ fontSize: "80px", margin: "-2px" }}/>,
+    "icon":<MdAgriculture/>,
     "description": "Developing solutions, keeping in mind the need to enhance the primary sector of India - Agriculture and to manage and process our agriculture produce.",
     "ps": [
       {
@@ -736,7 +736,7 @@ const data = [
   {
     "id": "6",
     "title": "Smart Vehicles",
-    "icon":<MdElectricCar sx={{ fontSize: "80px", margin: "-2px" }}/>,
+    "icon":<MdElectricCar/>,
     "description": "Creating intelligent devices to improve commutation sector.",
     "ps": [
       {
@@ -800,7 +800,7 @@ const data = [
   {
     "id": "7",
     "title": "Transportation & Logistics",
-    "icon":<MdEmojiTransportation sx={{ fontSize: "80px", margin: "-2px" }}/>,
+    "icon":<MdEmojiTransportation/>,
     "description": "Submit your ideas to address the growing pressures on the city\u2019s resources, transport networks, and logistic infrastructure.",
     "ps": [
       {
@@ -920,7 +920,7 @@ const data = [
   {
     "id": "8",
     "title": "Robotics and Drones",
-    "icon":<LiaRobotSolid sx={{ fontSize: "80px", margin: "-2px" }}/>,
+    "icon":<LiaRobotSolid/>,
     "description": "There is a need to design drones and robots that can solve some of the pressing challenges of India such as handling medical emergencies, search and rescue operations, etc.",
     "ps": [
       {
@@ -984,7 +984,7 @@ const data = [
   {
     "id": "9",
     "title": "Clean & Green Technology",
-    "icon": <FaLeaf sx={{ fontSize: "80px", margin: "-2px" }}/>,
+    "icon": <FaLeaf />,
     "description": "Solutions could be in the form of waste segregation, disposal, and improve sanitization system.",
     "ps": [
       {
@@ -1064,12 +1064,12 @@ const data = [
   {
     "id": "10",
     "title": "Tourism",
-    "icon": <FaSuitcase sx={{ fontSize: "80px", margin: "-2px" }}/>,
+    "icon": <FaSuitcase />,
     "description": "A solution/idea that can boost the current situation of the tourism industries including hotels, travel and others."
   },
   {
     "id": "11",
-    "title": <MdOutlineEnergySavingsLeaf sx={{ fontSize: "80px", margin: "-2px" }}/>,
+    "title": <MdOutlineEnergySavingsLeaf />,
     "description": "Innovative ideas that help manage and generate renewable /sustainable sources more efficiently.",
     "ps": [
       {
@@ -1133,7 +1133,7 @@ const data = [
   {
     "id": "12",
     "title": "Blockchain & Cybersecurity",
-    "icon": <FaShieldAlt sx={{ fontSize: "80px", margin: "-2px" }}/>,
+    "icon": <FaShieldAlt />,
     "description": "Provide ideas in a decentralized and distributed ledger technology used to store digital information that powers cryptocurrencies and NFTs and can radically change multiple sectors.",
     "ps": [
       {
@@ -1309,7 +1309,7 @@ const data = [
   {
     "id": "13",
     "title": "Smart Education",
-    "icon": <FaBookAtlas sx={{ fontSize: "80px", margin: "-2px" }}/>,
+    "icon": <FaBookAtlas />,
     "description": "Smart education,a concept that describes learning in digital age. It enables learners to learn more effectively, efficiently, flexibly and comfortably.",
     "ps": [
       {
@@ -1534,7 +1534,7 @@ const data = [
     "id": "14",
     "title": "Disaster Management",
     "icon":
-      <FaExclamationTriangle sx={{ fontSize: "80px", margin: "-2px" }}/>,
+      <FaExclamationTriangle />,
     "description": "Disaster management includes ideas related to risk mitigation, Planning and management before, after or during a disaster.",
     "ps": [
       {
@@ -1677,7 +1677,7 @@ const data = [
   {
     "id": "15",
     "title": "Toys",
-    "icon": <MdSmartToy sx={{ fontSize: "80px", margin: "-2px" }}/>,
+    "icon": <MdSmartToy />,
     "description": "Challenge your creative mind to conceptualize and develop unique toys and games based on our civilization, history, and culture etc.",
     "ps": [
       {
@@ -1701,7 +1701,7 @@ const data = [
   {
     "id": "16",
     "title": "Miscellaneous",
-    "icon": <MdMiscellaneousServices sx={{ fontSize: "80px", margin: "-2px" }}/>,
+    "icon": <MdMiscellaneousServices />,
     "description": "Technology ideas in tertiary sectors like Hospitality, Financial Services, Entertainment and Retail.",
     "ps": [
       {
@@ -1787,7 +1787,7 @@ const data = [
       {
         "Organization": "Ministry of Mines ",
         "Problem Statement Title": "Mines operation specially haulage of dumphers done through operators extended even in the absense in adequacy of operators.",
-        "Description": "Description: In case of Force majeure situations like road blockades/strikes by locals, allhaulage operations are halted. Also sometimes due to the absence of operators, the quantum ofexcavation/haulage has to be reduced commensurate to the available workforce.Solution Desired: If there would have been autonomous/automated haulage systems allowingprogrammable operation of dumpers within OEM operating parameters, without an operatorsitting inside the cabin, then the issues could be taken care of. This would further:ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’¡Ãƒâ€šÃ‚Â¼ Reduce/eliminate the need to stop equipment for breaks and shift changes, whichincreases the utilization of each vehicle.ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’¡Ãƒâ€šÃ‚Â¼ By better tracking and controlling vehicle operations within OEM prescribed limits,asset life can be extended, including areas such as tires, brakes, and othercomponents.ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’¡Ãƒâ€šÃ‚Â¼ The systems having control from a remote control/command center will enablecontrolling and managing vehicle operations in a consistent manner thereby leading toa significant reduction in labor, fuel, and maintenance costs.In the absence of completely autonomous/automated haulage systems, teleoperated vehiclescould be used enabling automatic steering along a pre-set path.ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’¡Ãƒâ€šÃ‚Â¼ Drivable areas within the mine are converted into a map for the systems.ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’¡Ãƒâ€šÃ‚Â¼ Here an operator may control acceleration and braking while the Tele-operating systemautomatically controls steering. Similar to a train on a railroad track, controlled vehiclescan drive on their precise path, minimizing the reliance on high-resolution video andoperator skills for safe operation and also preventing the operators from driving inunsafe and prohibited areas.",
+        "Description": "Description: In case of Force majeure situations like road blockades/strikes by locals, allhaulage operations are halted. Also sometimes due to the absence of operators, the quantum ofexcavation/haulage has to be reduced commensurate to the available workforce.Solution Desired: If there would have been autonomous/automated haulage systems allowingprogrammable operation of dumpers within OEM operating parameters, without an operatorsitting inside the cabin, then the issues could be taken care of. This would further:ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’¡Ãƒâ€šÃ‚Â¼ Reduce/eliminate the need to stop equipment for breaks and shift changes, whichincreases the utilization of each vehicle.ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’¡Ãƒâ€šÃ‚Â¼ By better tracking and controlling vehicle operations within OEM prescribed limits,asset life can be extended, including areas such as tires, brakes, and othercomponents.ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’¡Ãƒâ€šÃ‚Â¼ The systems having control from a remote control/command center will enablecontrolling and managing vehicle operations in a consistent manner thereby leading toa significant reduction in labor, fuel, and maintenance costs.In the absence of completely autonomous/automated haulage systems, teleoperated vehiclescould be used enabling automatic steering along a pre-set path.ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’¡Ãƒâ€šÃ‚Â¼ Drivable areas within the mine are converted into a map for the systems.ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’¡Ãƒâ€šÃ‚Â¼ Here an operator may control acceleration and braking while the Tele-operating systemautomatically controls steering. Similar to a train on a railroad track, controlled vehiclescan drive on their precise path, minimizing the reliance on high-resolution video andoperator skills for safe operation and also preventing the operators from driving inunsafe and prohibited areas.",
         "Category": "Hardware",
         "PS Number": "SIH1336",
         "Domain Bucket": "Miscellaneous"
@@ -2043,5 +2043,3 @@ const data = [
     ]
   }
 ];
-
-export default data;
