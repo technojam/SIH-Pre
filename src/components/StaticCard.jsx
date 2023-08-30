@@ -36,7 +36,7 @@ export default function StaticCard() {
 
                 height: "370px",
                 width: "300px",
-                background: "linear-gradient(180deg, #63f5bd, #00ffff)",
+                background: "linear-gradient(180deg, #63f5bd, #00ffff)", 
                 borderRadius: "8px",
                 boxShadow: "0px 0px 10px #000000",
               }}
@@ -60,9 +60,7 @@ export default function StaticCard() {
                 width: "300px",
                 my: 2,
                 mx: 4,
-                background: "linear-gradient(180deg, #63f5bd, #00ffff)", 
-                //background: "linear-gradient(180deg, #FFA500, #ffffff)", orange and white
-                //background: "linear-gradient(180deg, #FF9951, #ffffff)", light orange
+                background: "linear-gradient(180deg, #63f5bd, #00ffff)",
                 borderRadius: "8px",
                 boxShadow: "0px 0px 10px #000000",
                 borderColor: "linear-gradient(180deg, #63f5bd, #00ffff)"
