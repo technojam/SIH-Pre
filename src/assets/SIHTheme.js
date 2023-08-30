@@ -2042,4 +2042,4 @@ export const data = [
       }
     ]
   }
-];;
+];
