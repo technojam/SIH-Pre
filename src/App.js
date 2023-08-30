@@ -2,6 +2,8 @@
 import CountdownTimer from "./components/CountdownTimer";
 import { lazy, Suspense } from "react";
 import Rules from "./components/rules";
+import ThemeComponent from "./components/ThemeComponent";
+import data from "./assets/SIHTheme";
 const Header = lazy(() => import("./components/Header"));
 const HeroSection = lazy(() => import("./components/HeroSection"));
 const About = lazy(() => import("./components/About"));
@@ -15,8 +17,10 @@ const Sponsers = lazy(() => import("./components/Sponsers"));
 const FAQs = lazy(() => import("./components/FAQs"));
 const Footer = lazy(() => import("./components/Footer"));
 
+
 function App() {
   return (
+    
     <div
       style={{
         overflowX: "hidden",
@@ -31,7 +35,8 @@ function App() {
       <Rules />
       <FullWidthTabs />
       {/* <Cards /> */}
-      <Themeportion />
+      <ThemeComponent/>
+      {/* <Themeportion /> */}
       <Event />
       <Sponsers />
       <FAQs />
