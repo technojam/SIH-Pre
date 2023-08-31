@@ -1,3 +1,5 @@
+//index.js
+
 import React, { Suspense } from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
@@ -6,10 +8,24 @@ import reportWebVitals from "./reportWebVitals";
 
 import Lottie from "./components/Lottie";
 
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import ThemePage from './ThemePage';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "/theme/:themeId",
+    element: <ThemePage />,
+  }
+]);
+
 ReactDOM.render(
   <React.StrictMode>
     <Suspense fallback={<Lottie />}>
-      <App />
+      <RouterProvider router={router} />
     </Suspense>
   </React.StrictMode>,
   document.getElementById("root")

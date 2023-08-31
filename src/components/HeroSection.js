@@ -4,7 +4,7 @@ import ParticleX from "./ParticlesX";
 import Typewriter from "typewriter-effect";
 import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "react-feather";
 import { Box, Button, Stack, Typography } from "@mui/material";
-import logo from "../assets/logo2.png";
+import logo from "../assets/SIHP White Logo.png";
 import codechef from "../assets/codechef.png";
 import sih from "../assets/sih.png";
 
@@ -107,7 +107,7 @@ function HeroSection() {
               alignItems="center"
               sx={{ mx: 5, mb: { xs: 5 } }}
             >
-              <div style={{ display: "flex" }}>
+              {/* <div style={{ display: "flex" }}>
                 <img
                   src="https://technojam.github.io/dexterix3/assets/logo_footer_acm.png"
                   className="dexterix__logo1"
@@ -126,20 +126,20 @@ function HeroSection() {
                   alt=""
                   style={{ objectFit: "contain", height: "80px" }}
                 />
-              </div>
+              </div> */}
               <div>
                 <img
                   src={logo}
                   className="dexterix__logo"
-                  height="100"
+                  height="250"
                   width="600"
                   alt=""
                 />
-                <p style={{ textAlign: "center" }}>
+                {/* <p style={{ textAlign: "center" }}>
                   International Hybrid Hackathon
-                </p>
+                </p> */}
               </div>
-              <div
+              {/* <div
                 style={{
                   justifyContent: "center",
                   alignItems: "center",
@@ -156,7 +156,7 @@ function HeroSection() {
                     alignItems: "center",
                   }}
                 />
-              </div>
+              </div> */}
               <Box
                 sx={{
                   display: "flex",

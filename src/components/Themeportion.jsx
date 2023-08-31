@@ -221,7 +221,7 @@ const BackCard = () => {
         </Typography>
         <Link>
           <Typography variant="subtitle1" textAlign="left" sx={{ p: 2, pt: 0 }}>
-            <a href="https://www.sih.gov.in/sih2022#sih2020themes">
+            <a href="/theme/1">
               Click Here
             </a>
           </Typography>
@@ -269,7 +269,7 @@ const BackCard1 = () => {
         </Typography>
         <Link>
           <Typography variant="subtitle1" textAlign="left" sx={{ p: 2, pt: 0 }}>
-            <a href="https://www.sih.gov.in/sih2022#sih2020themes">
+            <a href="/theme/2">
               Click Here
             </a>
           </Typography>

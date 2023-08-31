@@ -2,6 +2,7 @@
 import CountdownTimer from "./components/CountdownTimer";
 import { lazy, Suspense } from "react";
 import Rules from "./components/rules";
+import ThemePage from "./ThemePage";
 const Header = lazy(() => import("./components/Header"));
 const HeroSection = lazy(() => import("./components/HeroSection"));
 const About = lazy(() => import("./components/About"));
@@ -14,6 +15,8 @@ const Event = lazy(() => import("./components/pastEvent"));
 const Sponsers = lazy(() => import("./components/Sponsers"));
 const FAQs = lazy(() => import("./components/FAQs"));
 const Footer = lazy(() => import("./components/Footer"));
+const ProbStaTable = lazy(() => import("./components/ProbStaTable"));
+
 
 function App() {
   return (
@@ -23,19 +26,19 @@ function App() {
       }}
     >
       <Header />
-      <HeroSection />
+     <HeroSection />
       <CountdownTimer />
       <About />
       <StaticCard />
       <PrizeLayout />
       <Rules />
       <FullWidthTabs />
-      {/* <Cards /> */}
+       <Cards /> 
       <Themeportion />
       <Event />
       <Sponsers />
       <FAQs />
-      <Footer />
+      <Footer /> 
     </div>
   );
 }
