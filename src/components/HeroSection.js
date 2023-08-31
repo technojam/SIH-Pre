@@ -5,8 +5,8 @@ import Typewriter from "typewriter-effect";
 import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "react-feather";
 import { Box, Button, Stack, Typography } from "@mui/material";
 import logo from "../assets/SIHP White Logo.png";
-import codechef from "../assets/codechef.png";
-import sih from "../assets/sih.png";
+
+
 
 const styles = {
   root: {
@@ -34,7 +34,7 @@ function HeroSection() {
                   Engineering
                 </h5>
                 <h5 style={{ fontSize: "1.5rem", paddingBottom: "5px" }}>
-                  and Team TechnoJam
+                  and TeamTechnoJam
                 </h5>
                 <h5 style={{ fontSize: "1.5rem", paddingBottom: "5px" }}>
                   Galgotias University, Greater Noida
@@ -180,7 +180,7 @@ function HeroSection() {
                   }}
                 >
                   <a
-                    href="https://www.sih.gov.in/sih2022PS"
+                    href="#themes"
                     style={{ textDecoration: "none", color: "white" }}
                   >
                     Click here

@@ -1,44 +1,39 @@
-//lazy loadingh
+//lazy loading
 import CountdownTimer from "./components/CountdownTimer";
 import { lazy, Suspense } from "react";
 import Rules from "./components/rules";
-import ThemePage from "./ThemePage";
 const Header = lazy(() => import("./components/Header"));
 const HeroSection = lazy(() => import("./components/HeroSection"));
 const About = lazy(() => import("./components/About"));
 const StaticCard = lazy(() => import("./components/StaticCard"));
-const PrizeLayout = lazy(() => import("./components/PrizeLayout"));
+const Perk_Prize = lazy(() => import("./components/perk_prize"));
 const FullWidthTabs = lazy(() => import("./components/TabPannel"));
-const Cards = lazy(() => import("./components/cards"));
-const Themeportion = lazy(() => import("./components/Themeportion"));
 const Event = lazy(() => import("./components/pastEvent"));
 const Sponsers = lazy(() => import("./components/Sponsers"));
 const FAQs = lazy(() => import("./components/FAQs"));
 const Footer = lazy(() => import("./components/Footer"));
-const ProbStaTable = lazy(() => import("./components/ProbStaTable"));
-
+const ThemeComponent = lazy(() => import("./components/ThemeComponent"));
 
 function App() {
   return (
     <div
       style={{
-        overflowX: "hidden",
+        overflow: "hidden",
       }}
     >
       <Header />
-     <HeroSection />
+      <HeroSection />
       <CountdownTimer />
       <About />
       <StaticCard />
-      <PrizeLayout />
+      <Perk_Prize />
       <Rules />
       <FullWidthTabs />
-       <Cards /> 
-      <Themeportion />
+      <ThemeComponent />
       <Event />
       <Sponsers />
       <FAQs />
-      <Footer /> 
+      <Footer />
     </div>
   );
 }

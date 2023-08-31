@@ -5,11 +5,9 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-
 import Lottie from "./components/Lottie";
-
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import ThemePage from './ThemePage';
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import ThemePage from "./components/ThemePage";
 
 const router = createBrowserRouter([
   {
@@ -19,7 +17,7 @@ const router = createBrowserRouter([
   {
     path: "/theme/:themeId",
     element: <ThemePage />,
-  }
+  },
 ]);
 
 ReactDOM.render(

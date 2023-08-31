@@ -24,7 +24,7 @@
     border: 1px solid #ccc;
   }
 
-  
+ 
   
   th{
     padding: 20px 15px;
@@ -52,11 +52,26 @@
   
 
   body{
-    background: -webkit-linear-gradient(left, #25c481, #25b7c4);
-    background: linear-gradient(to right, #25c481, #25b7c4);
+    background: -webkit-linear-gradient(left, #efefef, #f1f1f1);
+    background: linear-gradient(to right, #fbfbfb, #ffffff);
     font-family: 'Roboto', sans-serif;
   }
 
+  .mainc{
+    border-width: 10px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #fc8309,rgb(14, 177, 14)) 1;
+    
+  }
+   
+ 
+  
+
+ .data-table p{
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue ;
+  }
 
   
   
