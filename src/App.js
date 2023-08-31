@@ -8,22 +8,20 @@ const Header = lazy(() => import("./components/Header"));
 const HeroSection = lazy(() => import("./components/HeroSection"));
 const About = lazy(() => import("./components/About"));
 const StaticCard = lazy(() => import("./components/StaticCard"));
-const PrizeLayout = lazy(() => import("./components/PrizeLayout"));
+const Perk_Prize = lazy(() => import("./components/perk_prize"));
 const FullWidthTabs = lazy(() => import("./components/TabPannel"));
 const Cards = lazy(() => import("./components/cards"));
-const Themeportion = lazy(() => import("./components/Themeportion"));
+// const Themeportion = lazy(() => import("./components/Themeportion"));
 const Event = lazy(() => import("./components/pastEvent"));
 const Sponsers = lazy(() => import("./components/Sponsers"));
 const FAQs = lazy(() => import("./components/FAQs"));
 const Footer = lazy(() => import("./components/Footer"));
 
-
 function App() {
   return (
-    
     <div
       style={{
-        overflowX: "hidden",
+        overflow: "hidden",
       }}
     >
       <Header />
@@ -31,11 +29,11 @@ function App() {
       <CountdownTimer />
       <About />
       <StaticCard />
-      <PrizeLayout />
+      <Perk_Prize />
       <Rules />
       <FullWidthTabs />
       {/* <Cards /> */}
-      <ThemeComponent/>
+      <ThemeComponent />
       {/* <Themeportion /> */}
       <Event />
       <Sponsers />
