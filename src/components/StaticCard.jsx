@@ -135,5 +135,6 @@ export default function StaticCard() {
         </Stack>
       </Container>
     </motion.div>
+
   )
 };

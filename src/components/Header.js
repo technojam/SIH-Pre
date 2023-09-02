@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Grid } from "react-feather";
 import styled from "styled-components";
+import sihlogo from "../assets/WhatsApp Image 2023-08-29 at 22.43.46.jpg"
 import {
   headerBG__color,
   backgroundColor,
@@ -21,17 +22,20 @@ function Header() {
       <HeaderContainer>
         <div>
           <img
-            src="https://technojam.github.io/dexterix3/assets/TJ_logo.png"
+            src={sihlogo}
             alt="logo"
             className="header__logo"
+            style={{
+              height: "100px",
+            }}
           />
-          <img
+          {/* <img
             src={gu}
-            alt="logo"
+            alt="logo" 
             style={{
               height: "50px",
             }}
-          />
+          /> */}
         </div>
         <nav>
           <div className="nav__left"></div>
@@ -194,9 +198,9 @@ const HeaderContainer = styled.header`
     color: ${iconColor};
   }
   .header__logo {
-    max-width: 90px;
     margin-right: 0.2rem;
     border-radius: 5px;
+    height:100px;
     padding: 0.6rem;
   }
   > nav {
@@ -216,7 +220,7 @@ const HeaderContainer = styled.header`
     .header__logo {
       height: auto;
       margin-right: 0.2rem;
-      max-width: 80px;
+     
       border-radius: 5px;
       object-fit: contain;
     }

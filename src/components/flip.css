@@ -3,121 +3,7 @@
   text-align: center;
 }
 
-.flip-card {
-  background-color: transparent;
-  width: 290px;
-  height: 300px;
-  perspective: 1000px;
-  cursor: pointer;
-}
 
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  /* transition: transform 1s; */
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-/* .flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-} */
-
-.flip-card-front,
-.flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 50%;
-  backface-visibility: hidden;
-  
-  /* media query */
-}
-
-.flip-card-front {
-  /* background-color: red; */
-  color: black;
-  z-index: 2;
-}
-
-.flip-card-front::before{
-  content: '';
-    position: absolute;
-    top :0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(45deg, #ff9a33 , #138707);
-    z-index: -1;
-    border-radius: 10px;
-}
-
-.flip-card-front::after{
-  content: '';
-    position: absolute;
-    top :0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, #ff9a33, #138707);
-    filter:blur(15px);
-    z-index: -1;
-    border-radius: 10px;
-}
-.flip-card-front span{
-  position:absolute;
-  top: 4px;
-  left: 4px;
-  right: 4px;
-  bottom: 4px;
-  background:white;
-  z-index:2;
-  border-radius: 10px;
-}
-
-
-.flip-card-back {
-  text-align: center;
-  color: white;
-  transform: rotateY(180deg);
-  z-index: 1;
-}
-
-.flip-card-back::before{
-  content: '';
-    position: absolute;
-    top :0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(120deg, #ff9a33 , #138707);
-    z-index: -1;
-    border-radius: 10px;
-}
-
-.flip-card-back::after{
-  content: '';
-    position: absolute;
-    top :0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(120deg, #ff9a33, #138707);
-    filter:blur(30px);
-    z-index: -1;
-    border-radius: 10px;
-}
-.flip-card-back span{
-  position:absolute;
-  top: 4px;
-  left: 4px;
-  right: 4px;
-  bottom: 4px;
-  background:white;
-  z-index:2;
-  border-radius: 10px;
-}
 
 
 .cardtheme {
@@ -126,9 +12,21 @@
   height: 300px;
   perspective: 1000px;
   cursor: pointer;
+
 }
+
+.con{
+    display: flex;
+    justify-content: center;
+    
+}
+.card:hover{
+    cursor: pointer;
+    scale: 105%;
+}
+
 .cardtheme::before{
-  content: '';
+    content: '';
     position: absolute;
     top :0;
     left: 0;
@@ -139,6 +37,9 @@
     border-radius: 10px;
 }
 
+.mb-4{
+    scale:200%;
+}
 .cardtheme::after{
   content: '';
     position: absolute;

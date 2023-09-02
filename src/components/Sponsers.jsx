@@ -9,7 +9,7 @@ import index from "../assets/index.png";
 import red from "../assets/redfm.png";
 import taskasde from "../assets/taskade.png";
 import acm from "../assets/acm.png";
-import codechef from "../assets/codechef.png";
+// import codechef from "../assets/codechef.png";
 
 export default function () {
   return (
@@ -77,7 +77,7 @@ export default function () {
           alignItems="center"
           flexWrap="wrap"
         >
-          <img src={codechef} height="90" width="300" />
+          <img  height="90" width="300" />
         </Stack>
         <Divider sx={{ background: "grey", mt: 5 }} />
       </Container>
