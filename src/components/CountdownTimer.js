@@ -36,7 +36,7 @@ const CountdownTimer = () => {
         dayTitle="Days"
         hourTitle="Hours"
         minuteTitle="Minutes"
-        endAt={"2022-03-11 01:26:58"} // Date/Time
+        endAt={"2023-09-27 01:26:58"} // Date/Time
       />
     </Box>
   );
