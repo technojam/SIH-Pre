@@ -146,5 +146,5 @@ export default function StaticCard() {
     </motion.div>
     );
   }
-}
+
 

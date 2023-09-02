@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import "../components/flip.css"
 export default class Items extends Component {
   render() {
     let { title, description, url,icon} = this.props;
     return (
-      <div>
+      <div id='themes' className='con' >
         {/* Card Items for the card*/}
         <div className="card cardtheme" style={{ width: "17rem", height: "20rem" }}>
           <div className="card-body d-flex flex-column align-items-center text-center cartcolor">

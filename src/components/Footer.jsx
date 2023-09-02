@@ -27,7 +27,7 @@ export default function Footer() {
     <Box
       sx={{
         width: "100%",
-        height: { xs: "100vh", lg: "45vh" },
+        height: { xs: "100vh", lg: "50vh" },
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
