@@ -3,26 +3,24 @@
   text-align: center;
 }
 
-
-
-
 .cardtheme {
   background-color: transparent;
   width: 290px;
   height: 300px;
   perspective: 1000px;
   cursor: pointer;
+  transition: transform 0.3s ease;
 
+}
+
+.cardtheme:hover{
+  transform: scale(1.1);
 }
 
 .con{
     display: flex;
     justify-content: center;
     
-}
-.card:hover{
-    cursor: pointer;
-    scale: 105%;
 }
 
 .cardtheme::before{
