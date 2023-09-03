@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Grid } from "react-feather";
 import styled from "styled-components";
-import sihlogo from "../assets/WhatsApp Image 2023-08-29 at 22.43.46.jpg"
+import sihlogo from "../assets/WhatsApp Image 2023-08-29 at 22.43.46.jpg";
+import logo from "../assets/SIHP White Logo.png";
 import {
   headerBG__color,
   backgroundColor,
@@ -22,16 +23,16 @@ function Header() {
       <HeaderContainer>
         <div>
           <img
-            src={sihlogo}
+            src={logo}
             alt="logo"
             className="header__logo"
             style={{
-              height: "100px",
+              height: "80px",
             }}
           />
           {/* <img
             src={gu}
-            alt="logo" 
+            alt="logo"
             style={{
               height: "50px",
             }}
@@ -220,7 +221,7 @@ const HeaderContainer = styled.header`
     .header__logo {
       height: auto;
       margin-right: 0.2rem;
-     
+
       border-radius: 5px;
       object-fit: contain;
     }

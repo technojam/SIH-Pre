@@ -12,14 +12,12 @@ const CountdownTimer = () => {
       sx={{
         background: "#070c1d",
         color: "#fff",
-        pt: { xs: 25 },
         pb: 7,
       }}
     >
       <Typography
         sx={{
           color: "#FAFAFA",
-          py: 2,
           textAlign: "center",
           fontSize: "2.5rem",
         }}

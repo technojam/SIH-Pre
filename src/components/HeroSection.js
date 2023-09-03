@@ -24,7 +24,7 @@ function HeroSection() {
   return (
     <HeroSectionContainer>
       <div style={styles.root}>
-        <ParticleX />
+        {/* <ParticleX /> */}
         <div className="heroSectionTop">
           <div className="heroSectionLeft">
             <Box sx={{ mx: 5 }}>
@@ -43,14 +43,14 @@ function HeroSection() {
                   <Typewriter
                     //delay={500}
                     options={{
-                      strings: ["Mar 11-12, 2022"],
+                      strings: ["Sep 26-27, 2023"],
                       autoStart: true,
                       loop: true,
                     }}
                     onInit={(typewriter) => {
                       typewriter
-                        .typeString("Mar 11-12, 2022")
-                        .callFunction(() => {})
+                        .typeString("Sep 26-27, 2023")
+                        .callFunction(() => { })
                         .pauseFor(2500)
                         .start();
                     }}
@@ -226,7 +226,6 @@ const HeroSectionContainer = styled.div`
     margin: 0.4rem 0;
   }
   .heroSectionTop {
-    position: absolute;
     display: flex;
     color: #fff;
     width: 100%;
