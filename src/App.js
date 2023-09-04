@@ -28,10 +28,10 @@ function App() {
       <StaticCard />
       <Perk_Prize />
       <Rules />
-      <FullWidthTabs />
+      {/* <FullWidthTabs /> */}
       <ThemeComponent />
       <Event />
-      <Sponsers />
+      {/* <Sponsers /> */}
       <FAQs />
       <Footer />
     </div>

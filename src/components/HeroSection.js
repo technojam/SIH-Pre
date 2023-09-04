@@ -4,7 +4,7 @@ import ParticleX from "./ParticlesX";
 import Typewriter from "typewriter-effect";
 import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "react-feather";
 import { Box, Button, Stack, Typography } from "@mui/material";
-import logo from "../assets/SIHP White Logo.png";
+import logo from "../assets/sihp-logo-animation.gif";
 
 
 
@@ -27,7 +27,7 @@ function HeroSection() {
         {/* <ParticleX /> */}
         <div className="heroSectionTop">
           <div className="heroSectionLeft">
-            <Box sx={{ mx: 5 }}>
+            <Box sx={{ mx: 5, my: 10 }}>
               <div>
                 <h5 style={{ fontSize: "1.5rem", paddingBottom: "5px" }}>
                   Organised by, <br /> School of Computing Science and
@@ -131,8 +131,8 @@ function HeroSection() {
                 <img
                   src={logo}
                   className="dexterix__logo"
-                  height="250"
-                  width="600"
+                  height="350"
+                  width="350"
                   alt=""
                 />
                 {/* <p style={{ textAlign: "center" }}>
