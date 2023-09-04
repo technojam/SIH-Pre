@@ -100,7 +100,7 @@ export default function StaticCard() {
                 textAlign="center"
                 sx={{ color: "#000" }}
               >
-                Cash Price 1 Lakh
+                Cash Prize 1 Lakh
                 
               </Typography>
             </Box>
@@ -128,7 +128,7 @@ export default function StaticCard() {
                 textAlign="center"
                 sx={{ color: "#000" }}
               >
-                Free T-Shirts & Swags (For every participant)
+                Exciting Swags  (For every participant)
               </Typography>
             </Box>
           </Box>

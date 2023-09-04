@@ -178,7 +178,7 @@ export default function Event(props) {
                 </Carousel>
 
                 <Typography textAlign="center" variant="h6">
-                  Nasa Space Hackathon
+                  NASA International Space Apps Challenge 2019
                 </Typography>
                 <Typography
                   textAlign="center"
