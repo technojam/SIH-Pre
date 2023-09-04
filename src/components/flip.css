@@ -1,3 +1,14 @@
+.logo{
+  scale: 500%;
+  margin: 60px;
+  
+}
+.logo1{
+  transform: scale(100);
+  margin:75px 20px 30px 40px;
+  
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -13,13 +24,17 @@
 
 }
 
-.cardtheme:hover{
-  transform: scale(1.1);
-}
+
 
 .con{
     display: flex;
+    align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    background-color:#070c1d;
+    padding: 80px 10px;
+    gap: 100px;
+   
     
 }
 
