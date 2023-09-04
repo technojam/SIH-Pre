@@ -26,11 +26,14 @@ export default function FAQs() {
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
-            <Typography variant="subtitle1">How big can my team be?</Typography>
+            <Typography variant="subtitle1">
+              How big can my team be?
+            </Typography>
           </AccordionSummary>
           <AccordionDetails sx={{ color: "#fff", background: "#070c1d" }}>
             <Typography variant="subtitle2">
-              The maximum team size allowed is 4-6 member 1 Girl Recommended
+              Team should comprise of 6 members including the team leader 
+              Furthermore, it's mandatory to have at least one female member on your team.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -49,7 +52,7 @@ export default function FAQs() {
           </AccordionSummary>
           <AccordionDetails sx={{ color: "#fff", background: "#070c1d" }}>
             <Typography variant="subtitle2">
-              No. A team of minimum 4 members is allowed.
+              No. A team of only 6 members is allowed.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -66,8 +69,8 @@ export default function FAQs() {
           </AccordionSummary>
           <AccordionDetails sx={{ color: "#fff", background: "#070c1d" }}>
             <Typography variant="subtitle2">
-              Dexterix 3.0 2022 will be a 24 hours hackathon which will stretch
-              from 11th March to 12th March 2022 (overnight)
+              Smart India Hackathon Pre-Qualifiers 2023 will be a 24 hours hackathon which will stretch
+              from 26th September to 27th September 2023 (overnight)
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -84,7 +87,7 @@ export default function FAQs() {
           </AccordionSummary>
           <AccordionDetails sx={{ color: "#fff", background: "#070c1d" }}>
             <Typography variant="subtitle2">
-              Dexterix 3.0 will be conducted online by Galgotias University,
+            Smart India Hackathon Pre-Qualifiers 2023 will be conducted offline by Galgotias University,
               Greater Noida
             </Typography>
           </AccordionDetails>
@@ -104,8 +107,9 @@ export default function FAQs() {
           </AccordionSummary>
           <AccordionDetails sx={{ color: "#fff", background: "#070c1d" }}>
             <Typography variant="subtitle2">
-              You require school/college ID, laptops, phone, chargers,
-              extensions.
+            To embark on this coding adventure, make sure you've got your college ID (it's your passport to tech stardom!),
+             your trusty laptop, phone, chargers (because even tech wizards need to recharge), 
+             and don't forget those power-hungry extensions. Ready to rock the digital runway! 🚀💻📱🔌
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -124,8 +128,8 @@ export default function FAQs() {
           </AccordionSummary>
           <AccordionDetails sx={{ color: "#fff", background: "#070c1d" }}>
             <Typography variant="subtitle2">
-              You must be a student from any University/College or Higher
-              Secondary School in India.
+              All team members should be from Galgotias University; no inter-college teams are allowed.
+               However, members from different departments/branches are encouraged to form a team.
             </Typography>
           </AccordionDetails>
         </Accordion>

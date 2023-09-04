@@ -28,21 +28,21 @@ export default function Rules() {
       </Box>
       <Box>
         <Typography variant="h5" sx={{ color: "#fff", pt: 10 }}>
-          1. All the Registered Teams are categorized in the 8 Vertical Domains
-          mentioned in the Dexterix 3.0 Website.
+          1. All the Registered Teams are categorized in the 16 vertical domains
+          mentioned in the SIH Website.
         </Typography>
         <Typography variant="h5" sx={{ color: "#fff", pt: 5 }}>
           2. Students shall select the problem statements from Smart India
-          Hackathon (SIH) 2022 website, i.e., https://sih.gov.in/sih2022PS
+          Hackathon (SIH) 2023 website, i.e., https://sih.gov.in/sih2023PS
         </Typography>
         <Typography variant="h5" sx={{ color: "#fff", pt: 5 }}>
-          3. The titles in the SIH 2022 are not limited, you can come up with an
+          3. The titles in the SIH 2023 are not limited, you can come up with an
           innovative problem and provide a solution to it.
         </Typography>
         <Typography variant="h5" sx={{ color: "#fff", pt: 5 }}>
-          4. Each team should be of 4-6 students (1 or 2 girl is recommended for
+          4. Each team should be of 6 students (1 girl is compulsary for
           each team) and even Ph.D. and M.Tech students can Participate in
-          Dexterix 3.0
+          Smart India Hackathon
         </Typography>
         <Typography variant="h5" sx={{ color: "#fff", pt: 5 }}>
           5. Multi-Disciplinary participations: Members from different branches
@@ -58,10 +58,10 @@ export default function Rules() {
           which means your team should have a good mix of Mechanical Engineers,
           Electronic Engineers, Product Designers and Programmers, etc.
         </Typography>
-        <Typography variant="h5" sx={{ color: "#fff", pt: 5 }}>
+        {/* <Typography variant="h5" sx={{ color: "#fff", pt: 5 }}>
           8. The Dexterix 3.0 International Technical Hackathon is conducted in
           the Hybrid Mode (Online and Offline).
-        </Typography>
+        </Typography> */}
       </Box>
     </Box>
   );

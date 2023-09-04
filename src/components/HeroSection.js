@@ -34,7 +34,7 @@ function HeroSection() {
                   Engineering
                 </h5>
                 <h5 style={{ fontSize: "1.5rem", paddingBottom: "5px" }}>
-                  and TeamTechnoJam
+                  and TeamTechnoJam, GUSC
                 </h5>
                 <h5 style={{ fontSize: "1.5rem", paddingBottom: "5px" }}>
                   Galgotias University, Greater Noida
