@@ -17,6 +17,7 @@ import {
 
 export default function Timelinestudent() {
   return (
+    <div className="timeline">
     <Container className="container">
       <Timeline position="alternate">
         <TimelineItem>
@@ -239,11 +240,11 @@ export default function Timelinestudent() {
               }}
             >
               <Settings />{" "}
-              <Typography variant="subtitle1"> Dexterix Wrap Up</Typography>
+              <Typography variant="subtitle1">Wrap Up</Typography>
             </Stack>
           </TimelineContent>
         </TimelineItem>
       </Timeline>
-    </Container>
+    </Container></div>
   );
 }

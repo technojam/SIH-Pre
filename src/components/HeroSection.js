@@ -167,12 +167,13 @@ function HeroSection() {
                 }}
               >
                 <Typography variant="h5" sx={{ fontWeight: "bold", p: 5 }}>
-                  For problem statements
+                  For Problem Statements
                 </Typography>
                 <Button
                   variant="contained"
                   sx={{
                     height: "40px",
+                    minWidth:"120px",
                     backgroundImage:
                       "linear-gradient( 135deg, #79F1A4 10%, #0E5CAD 100%)",
 
@@ -261,7 +262,7 @@ const HeroSectionContainer = styled.div`
     }
     .dexterix__logo {
       /* display: none; */
-      width: 200px;
+      width: 350px;
       height: auto;
       object-fit: contain;
       margin: auto;

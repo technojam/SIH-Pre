@@ -5,15 +5,15 @@
 
   table{
     width:100%;
-    table-layout: fixed;
+  
   }
   .table-container{
     margin: 20px;
-    background-color: rgba(184, 184, 184, 0.3);
+    background-color: rgb(255, 255, 255);
    }
   .data-table{
     height:300px;
-    overflow-y:scroll;
+    overflow:auto;
     margin-top: 0px;
     border: 1px solid rgba(0, 0, 0, 0.3);
   }
@@ -41,7 +41,7 @@
     text-align: left;
     vertical-align:middle;
     font-weight: 900;
-    font-size: 14px;
+    font-size: 15px;
     color: #000000;
     border-bottom: solid 3px rgba(0, 0, 0, 0.1);
   }
@@ -61,7 +61,7 @@
     border-width: 10px;
     border-style: solid;
     border-image: linear-gradient(to right, #fc8309,rgb(14, 177, 14)) 1;
-    
+    overflow: auto;
   }
    
  
@@ -71,6 +71,7 @@
     cursor: pointer;
     text-decoration: underline;
     color: blue ;
+    font-size: 15px;
   }
 
   

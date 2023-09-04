@@ -83,23 +83,23 @@ export default function Footer() {
               alignItems="center"
               sx={{ pt: 4, px: 3 }}
             >
-              <IconButton sx={{ color: "#FAFAFA" }}>
-                <Facebook />
+              <IconButton sx={{ color: "white" }}>
+                <a href="https://www.facebook.com/teamtechnojam/"> <Facebook /></a>
               </IconButton>
               <IconButton sx={{ color: "#FAFAFA" }}>
-                <GitHub />
+              <a href="https://www.github.com/technojam"> <GitHub /></a>
               </IconButton>
               <IconButton sx={{ color: "#FAFAFA" }}>
-                <Instagram />
+              <a href="https://www.instagram.com/teamtechnojam/"> <Instagram /></a>
               </IconButton>
               <IconButton sx={{ color: "#FAFAFA" }}>
-                <YouTube />
+              <a href="https://www.youtube.com/channel/UCGkFbl5SfsI8rhNGqo9rJDA"> <YouTube /></a>
               </IconButton>
               <IconButton sx={{ color: "#FAFAFA" }}>
-                <LinkedIn />
+              <a href="https://www.linkedin.com/company/technojam/"> <LinkedIn /></a>
               </IconButton>
               <IconButton sx={{ color: "#FAFAFA" }}>
-                <Twitter />
+              <a href="https://twitter.com/technojam_gu"> <Twitter /></a>
               </IconButton>
             </Stack>
           </Box>

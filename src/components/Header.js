@@ -50,14 +50,14 @@ function Header() {
               <a href="#about" className="header__nav__link">
                 About
               </a>
-              <a href="#schedule" className="header__nav__link">
-                Schedule
+              <a href="#timeline" className="header__nav__link">
+                Timeline
               </a>
               <a href="#events" className="header__nav__link">
                 Events
               </a>
-              <a href="#sponsors" className="header__nav__link">
-                Sponsors
+              <a href="#prizes" className="header__nav__link">
+                Prizes  
               </a>
               <a href="#faq" className="header__nav__link">
                 FAQ
@@ -86,8 +86,8 @@ function Header() {
               transition={{ duration: 0.4 }}
               whileTap={{ scale: 0.8 }}
             >
-              <a href="#schedule" className="header__nav__link">
-                Schedule
+              <a href="#timeline" className="header__nav__link">
+                Timeline
               </a>
             </motion.div>
             <motion.div
@@ -104,8 +104,8 @@ function Header() {
               transition={{ duration: 0.4 }}
               whileTap={{ scale: 0.8 }}
             >
-              <a href="#sponsors" className="header__nav__link">
-                Sponsors
+              <a href="#prizes" className="header__nav__link">
+                Prizes
               </a>
             </motion.div>
             <motion.div

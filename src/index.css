@@ -7,6 +7,11 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+a{
+  color: white;
+}
+
+
 @media (max-width: 768px) {
   iframe {
     max-width: 100%;

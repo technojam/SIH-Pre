@@ -17,11 +17,13 @@ import { Container, Stack, Typography } from "@mui/material";
 
 export default function Timelinepre() {
   return (
-    <Container className="container" maxWidth="lg">
+    <div id="timeline" className="timeline">
+      <h1 className="tmhead">TIMELINE</h1>
+    <Container maxWidth="lg">
       <Timeline position="alternate">
         <TimelineItem>
           <TimelineOppositeContent sx={{ color: "white" }}>
-            08 FEB
+           5 SEP
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot sx={{ mt: { xs: 4, lg: 0 } }} />
@@ -156,6 +158,6 @@ export default function Timelinepre() {
           </TimelineContent>
         </TimelineItem>
       </Timeline>
-    </Container>
+    </Container></div>
   );
 }

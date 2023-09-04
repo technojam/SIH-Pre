@@ -18,6 +18,7 @@ import { Container, Stack, Typography } from "@mui/material";
 
 export default function Timelinecorporate() {
   return (
+    <div className="timeline">
     <Container className="container">
       <Timeline position="alternate">
         <TimelineItem>
@@ -164,6 +165,6 @@ export default function Timelinecorporate() {
           </TimelineContent>
         </TimelineItem>
       </Timeline>
-    </Container>
+    </Container></div>
   );
 }
