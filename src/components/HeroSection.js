@@ -58,7 +58,7 @@ function HeroSection() {
                 </h5>
                 <button className="register__btn">
                   <a
-                    href="https://www.townscript.com/e/dextrix-132312"
+                    href="https://forms.gle/NbYFVYTyzcYcWFWm9"
                     style={{ textDecoration: "none" }}
                   >
                     Register
