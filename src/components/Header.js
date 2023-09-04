@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Grid } from "react-feather";
 import styled from "styled-components";
-import sihlogo from "../assets/WhatsApp Image 2023-08-29 at 22.43.46.jpg";
 import logo from "../assets/SIHP White Logo.png";
 import {
   headerBG__color,
@@ -13,7 +12,7 @@ import {
 import { motion } from "framer-motion";
 import MenuIcon from "@mui/icons-material/Menu";
 import { CancelOutlined } from "@mui/icons-material";
-import gu from "../assets/gu.png";
+// import gu from "../assets/gu.png";
 
 function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -51,14 +50,14 @@ function Header() {
               <a href="#about" className="header__nav__link">
                 About
               </a>
-              <a href="#schedule" className="header__nav__link">
-                Schedule
+              <a href="#timeline" className="header__nav__link">
+                Timeline
               </a>
               <a href="#events" className="header__nav__link">
                 Events
               </a>
-              <a href="#sponsors" className="header__nav__link">
-                Sponsors
+              <a href="#prizes" className="header__nav__link">
+                Prizes  
               </a>
               <a href="#faq" className="header__nav__link">
                 FAQ
@@ -87,8 +86,8 @@ function Header() {
               transition={{ duration: 0.4 }}
               whileTap={{ scale: 0.8 }}
             >
-              <a href="#schedule" className="header__nav__link">
-                Schedule
+              <a href="#timeline" className="header__nav__link">
+                Timeline
               </a>
             </motion.div>
             <motion.div
@@ -105,8 +104,8 @@ function Header() {
               transition={{ duration: 0.4 }}
               whileTap={{ scale: 0.8 }}
             >
-              <a href="#sponsors" className="header__nav__link">
-                Sponsors
+              <a href="#prizes" className="header__nav__link">
+                Prizes
               </a>
             </motion.div>
             <motion.div

@@ -56,9 +56,9 @@ export default function Event(props) {
   ];
 
   return (
-    <div style={{ background: "#070c1d", padding: "10px" }}>
+    <div id="events" style={{ background: "#070c1d", padding: "10px" }}>
       <Container maxWidth="xl">
-        <Typography variant="h2" textAlign="center" sx={{ color: "#FAFAFA" }}>
+        <Typography variant="h2" textAlign="center" sx={{ padding:"100px 50px 50px 10px", color: "#FAFAFA" }}>
           Past Events
         </Typography>
         <Stack
@@ -145,6 +145,7 @@ export default function Event(props) {
                   variant="subtitle2"
                   sx={{
                     pb: 4,
+                    minHeight:"160px"
                   }}
                 >
                   The second iteration was no less, a greater success. It
@@ -185,6 +186,7 @@ export default function Event(props) {
                   variant="subtitle2"
                   sx={{
                     pb: 4,
+                    maxHeight:"130px"
                   }}
                 >
                   NASA Space Apps Challenge, a part of NASA’s Earth Science

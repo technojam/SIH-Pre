@@ -27,7 +27,7 @@ const carouselItems = [
 
 function perk_prize() {
   return (
-    <div className="">
+    <div id="prizes" className="">
       <Carousel items={carouselItems} />
     </div>
   );

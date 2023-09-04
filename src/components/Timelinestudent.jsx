@@ -17,7 +17,8 @@ import {
 
 export default function Timelinestudent() {
   return (
-    <Container>
+    <div className="timeline">
+    <Container className="container">
       <Timeline position="alternate">
         <TimelineItem>
           <TimelineOppositeContent sx={{ color: "white" }}>
@@ -239,11 +240,11 @@ export default function Timelinestudent() {
               }}
             >
               <Settings />{" "}
-              <Typography variant="subtitle1"> Dexterix Wrap Up</Typography>
+              <Typography variant="subtitle1">Wrap Up</Typography>
             </Stack>
           </TimelineContent>
         </TimelineItem>
       </Timeline>
-    </Container>
+    </Container></div>
   );
 }

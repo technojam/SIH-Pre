@@ -7,7 +7,7 @@ export default class NewsComponents extends Component {
     console.log("render");
     return (
       <div style={{ background: "#070c1d" }}>
-        <h1 style={{ color: "#ffffff" }} className="text-center">
+        <h1 style={{fontSize:"3.5rem", padding:"100px 50px 50px 50px", color: "#ffffff" }} className="text-center">
           THEMES
         </h1>
         <div className="container">

@@ -6,7 +6,7 @@ import block from "../assets/block.png";
 import CNLOGO from "../assets/CNLOGO.svg";
 import index from "../assets/index.png";
 
-import red from "../assets/redfm.png";
+// import red from "../assets/redfm.png";
 import taskasde from "../assets/taskade.png";
 import acm from "../assets/acm.png";
 // import codechef from "../assets/codechef.png";
@@ -40,7 +40,7 @@ export default function () {
           alignItems="center"
           flexWrap="wrap"
         >
-          <img src={red} height="100" width="300" />
+          
         </Stack>
         <Divider sx={{ background: "grey", mt: 5 }} />
 

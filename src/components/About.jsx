@@ -52,7 +52,7 @@ export default function () {
           textAlign="left"
           gutterBottom
         >
-          Dexterix is Galgotias University’s largest tech hackathon, organized
+           Smart India Hackathon - PreQualifiers 2023 is a University internal hackathon to provide students a platform to solve some of the pressing problems we face in our daily lives, and thus inculcate a culture of product innovation and a mindset of problem solving.Organized
           through collaboration between Team TechnoJam, the Technical Club under
           GU Student Council, and the University’s School of Computing Science
           and Engineering. It is a themed competitive event that holds host to

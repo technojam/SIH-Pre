@@ -13,6 +13,10 @@ const Sponsers = lazy(() => import("./components/Sponsers"));
 const FAQs = lazy(() => import("./components/FAQs"));
 const Footer = lazy(() => import("./components/Footer"));
 const ThemeComponent = lazy(() => import("./components/ThemeComponent"));
+const Timeline = lazy(() => import("./components/Timelinecorporate"));
+const Timeline2 = lazy(() => import("./components/Timelinepre"));
+const Timeline3 = lazy(() => import("./components/Timelinestudent"));
+
 
 function App() {
   return (
@@ -26,10 +30,14 @@ function App() {
       <CountdownTimer />
       <About />
       <StaticCard />
-      <Perk_Prize />
-      <Rules />
+      <Perk_Prize />  
+      <Rules/> 
+      <Timeline2/>
+      <Timeline/>
+      <Timeline3/>
       {/* <FullWidthTabs /> */}
       <ThemeComponent />
+     
       <Event />
       {/* <Sponsers /> */}
       <FAQs />
