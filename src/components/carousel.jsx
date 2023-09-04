@@ -68,6 +68,7 @@ function Carousel({ items }) {
         ))}
       </div>
     </section>
+    // Made by ~Sankalp Srivastava
   );
 }
 

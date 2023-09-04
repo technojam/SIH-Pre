@@ -31,6 +31,7 @@ function perk_prize() {
       <Carousel items={carouselItems} />
     </div>
   );
+  // Made by ~Sankalp Srivastava
 }
 
 export default perk_prize;
