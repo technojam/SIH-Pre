@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Grid } from "react-feather";
 import styled from "styled-components";
-import sihlogo from "../assets/WhatsApp Image 2023-08-29 at 22.43.46.jpg";
 import logo from "../assets/SIHP White Logo.png";
 import {
   headerBG__color,
@@ -13,7 +12,7 @@ import {
 import { motion } from "framer-motion";
 import MenuIcon from "@mui/icons-material/Menu";
 import { CancelOutlined } from "@mui/icons-material";
-import gu from "../assets/gu.png";
+// import gu from "../assets/gu.png";
 
 function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);

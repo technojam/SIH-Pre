@@ -17,7 +17,7 @@ import {
 
 export default function Timelinestudent() {
   return (
-    <Container>
+    <Container className="container">
       <Timeline position="alternate">
         <TimelineItem>
           <TimelineOppositeContent sx={{ color: "white" }}>

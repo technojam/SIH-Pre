@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import ParticleX from "./ParticlesX";
+// import ParticleX from "./ParticlesX";
 import Typewriter from "typewriter-effect";
 import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "react-feather";
 import { Box, Button, Stack, Typography } from "@mui/material";

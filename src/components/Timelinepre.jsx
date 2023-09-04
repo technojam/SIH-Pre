@@ -17,7 +17,7 @@ import { Container, Stack, Typography } from "@mui/material";
 
 export default function Timelinepre() {
   return (
-    <Container maxWidth="lg">
+    <Container className="container" maxWidth="lg">
       <Timeline position="alternate">
         <TimelineItem>
           <TimelineOppositeContent sx={{ color: "white" }}>

@@ -6,6 +6,7 @@ import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
+import "./Modal.css"
 import {
   AccountCircle,
   CardGiftcard,
@@ -17,7 +18,7 @@ import { Container, Stack, Typography } from "@mui/material";
 
 export default function Timelinecorporate() {
   return (
-    <Container>
+    <Container className="container">
       <Timeline position="alternate">
         <TimelineItem>
           <TimelineOppositeContent sx={{ color: "white" }}>
