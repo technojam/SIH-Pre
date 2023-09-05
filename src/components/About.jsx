@@ -10,11 +10,13 @@ export default function () {
           sx={{
             py: { xs: 10, lg: 5 },
             color: "#FAFAFA",
+            fontWeight:"500",
+            color:"white"
           }}
           textAlign="center"
           gutterBottom
         >
-          About
+          ABOUT 
         </Typography>
       </Box>
       <Stack
