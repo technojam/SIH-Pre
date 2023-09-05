@@ -4,7 +4,6 @@ import { lazy, Suspense } from "react";
 import Rules from "./components/rules";
 const Header = lazy(() => import("./components/Header"));
 const HeroSection = lazy(() => import("./components/HeroSection"));
-const About = lazy(() => import("./components/About"));
 const StaticCard = lazy(() => import("./components/StaticCard"));
 const Perk_Prize = lazy(() => import("./components/perk_prize"));
 const FullWidthTabs = lazy(() => import("./components/TabPannel"));
@@ -28,16 +27,16 @@ function App() {
       <Header />
       <HeroSection />
       <CountdownTimer />
-      <About />
+      {/* <About /> */}
       <StaticCard />
-      <Perk_Prize />  
-      <Rules/> 
-      <Timeline2/>
-      <Timeline/>
-      <Timeline3/>
+      <Perk_Prize />
+      <Rules />
+      {/* <Timeline2 /> */}
+      {/* <Timeline /> */}
+      {/* <Timeline3 /> */}
       {/* <FullWidthTabs /> */}
       <ThemeComponent />
-     
+
       <Event />
       {/* <Sponsers /> */}
       <FAQs />
