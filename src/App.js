@@ -31,9 +31,9 @@ function App() {
       <StaticCard />
       <Perk_Prize />
       <Rules />
-      <Timeline2 />
-      <Timeline />
-      <Timeline3 />
+      {/* <Timeline2 /> */}
+      {/* <Timeline /> */}
+      {/* <Timeline3 /> */}
       {/* <FullWidthTabs /> */}
       <ThemeComponent />
 
