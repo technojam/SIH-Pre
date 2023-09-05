@@ -234,9 +234,7 @@ const HeroSectionContainer = styled.div`
     justify-content: space-between;
     top: 25%;
   }
-  .heroSectionLeft {
-    margin-left: 2rem;
-  }
+ 
   .heroSectionRight {
     margin: 0.6rem;
   }

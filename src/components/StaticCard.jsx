@@ -12,7 +12,7 @@ import {FaBookReader} from 'react-icons/fa'
 import {FaFaceGrinHearts} from 'react-icons//fa6'
 export default function StaticCard() {
 	return (
-		<>  <div id='themes' className='con' >
+		<>  <div id='about' className='con' >
       
         <div className="card cardtheme" style={{ width: "17rem", height: "20rem" }}>
           <div className="card-body d-flex flex-column align-items-center text-center cartcolor">

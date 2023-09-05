@@ -6,7 +6,8 @@ export default function Rules() {
     <Box
       sx={{
         backgroundColor: "#070c1d",
-        padding: "5em",
+        padding: "5%",
+        textAlign:"left"
       }}
     >
       <Box
@@ -27,7 +28,7 @@ export default function Rules() {
         </Typography>
       </Box>
       <Box>
-        <Typography variant="h5" sx={{ color: "#fff", pt: 10 }}>
+        <Typography variant="h5" sx={{ color: "#fff", pt: 5}}>
           1. All the Registered Teams are categorized in the 16 vertical domains
           mentioned in the SIH Website.
         </Typography>
