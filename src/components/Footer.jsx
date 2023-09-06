@@ -52,7 +52,7 @@ export default function Footer() {
             alignItems: "center",
           }}
         >
-          <Box>
+          <Box id="about">
             <img src="https://technojam.github.io/dexterix3/assets/TJ_logo.png" />
           </Box>
           <Box>

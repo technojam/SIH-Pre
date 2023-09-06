@@ -5,7 +5,10 @@ import Typewriter from "typewriter-effect";
 import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "react-feather";
 import { Box, Button, Stack, Typography } from "@mui/material";
 import logo from "../assets/sihp-logo-animation.gif";
-
+import g20 from "../assets/g20-logo.png"
+import uni from "../assets/galgotias-uni-logo.png"
+import stc from "../assets/gusc-bg.png"
+import techno from  "../assets/Technojam.png"
 
 
 const styles = {
@@ -28,7 +31,29 @@ function HeroSection() {
         <div className="heroSectionTop">
           <div className="heroSectionLeft">
             <Box sx={{ mx: 5, my: 10 }}>
-              <div>
+              <div >
+                <div style={{display:"flex", alignItems:"center",justifyContent:"space-evenly",marginBottom:"15px",flexWrap:"wrap",maxWidth:"470px"}}>
+              <img
+                  src={uni}
+                  alt="galgotias university logo"
+                  style={{marginRight:"5px",minWidth:"220px",width:"55%", objectFit: "contain" }}
+                />
+              <img
+                  src={stc}
+                  alt="GU student council logo"
+                  style={{margin:"10px", objectFit: "contain", height: "45px" }}
+                />
+                 <img
+                  src={techno}
+                  alt="GU student council logo"
+                  style={{margin:"11px", objectFit: "contain", height: "55px" }}
+                />
+              <img
+                  src={g20}
+                  alt="G20 India Logo"
+                  style={{margin:"5px", objectFit: "contain", height: "35px" }}
+                />             
+                      </div>
                 <h5 style={{ fontSize: "1.5rem", paddingBottom: "5px" }}>
                   Organised by, <br /> School of Computing Science and
                   Engineering
@@ -234,7 +259,7 @@ const HeroSectionContainer = styled.div`
     justify-content: space-between;
     top: 25%;
   }
- 
+
   .heroSectionRight {
     margin: 0.6rem;
   }
