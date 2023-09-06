@@ -21,14 +21,16 @@ function Header() {
     <>
       <HeaderContainer>
         <div>
-          <img
-            src={logo}
-            alt="logo"
-            className="header__logo"
-            style={{
-              height: "80px",
-            }}
-          />
+          <a href="/">
+            <img
+              src={logo}
+              alt="logo"
+              className="header__logo"
+              style={{
+                height: "80px",
+              }}
+            />
+          </a>
           {/* <img
             src={gu}
             alt="logo"
@@ -57,7 +59,7 @@ function Header() {
                 Events
               </a>
               <a href="#prizes" className="header__nav__link">
-                Prizes  
+                Prizes
               </a>
               <a href="#faq" className="header__nav__link">
                 FAQ
