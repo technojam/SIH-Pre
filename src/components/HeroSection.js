@@ -32,7 +32,7 @@ function HeroSection() {
           <div className="heroSectionLeft">
             <Box sx={{ mx: 5, my: 10 }}>
               <div >
-                <div style={{display:"flex", alignItems:"center",justifyContent:"center",marginBottom:"15px",flexWrap:"wrap",maxWidth:"470px"}}>
+                <div style={{display:"flex", alignItems:"center",justifyContent:"space-evenly",marginBottom:"15px",flexWrap:"wrap",maxWidth:"470px"}}>
               <img
                   src={uni}
                   alt="galgotias university logo"
