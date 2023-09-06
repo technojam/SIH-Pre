@@ -28,7 +28,7 @@ function App() {
       <Header />
       <HeroSection />
       <CountdownTimer />
-      <About />
+      {/* <About /> */}
       <StaticCard />
       <Perk_Prize />  
       <Rules/> 
