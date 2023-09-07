@@ -24,6 +24,7 @@ export default function Footer() {
 	};
 
 	return (
+		<Box>
 		<Box
 			sx={{
 				width: "100%",
@@ -133,6 +134,23 @@ export default function Footer() {
 					</Box>
 				</Box>
 			</Stack>
-		</Box>
+
+		</Box><Box sx={{
+				width: "100%",
+				paddingY: "1rem",
+				display: "flex",
+				flexDirection: "column",
+				alignSelf: "center",
+				justifyContent: "center",
+				alignItems: "center",
+				backgroundColor: "#070c1d",
+				color: "#FAFAFA",
+		}}
+		>
+				<Typography>
+					Made with ❤️ by Team Technojam
+				</Typography>				
+			</Box>
+			</Box>
 	);
 }
