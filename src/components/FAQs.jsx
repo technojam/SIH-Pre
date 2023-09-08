@@ -17,6 +17,49 @@ export default function FAQs() {
         FAQs
       </Typography>
       <Container sx={{ p: { xs: 5, lg: 10 } }}>
+      <Accordion
+          sx={{ background: "#070c1d", borderBottom: "1px solid #FAFAFA" }}
+        >
+          <AccordionSummary
+            sx={{ color: "#fff", background: "#070c1d" }}
+            expandIcon={<ExpandMoreIcon sx={{ color: "#FAFAFA" }} />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+          >
+            <Typography variant="subtitle1">
+              What is a hackathon?
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails sx={{ color: "#fff", background: "#070c1d" }}>
+            <Typography variant="subtitle2">
+            A hackathon is best described as an “invention marathon”.
+            Anyone who has an interest in technology attends a hackathon to learn, build & share their creations over the course of a weekend in a relaxed and welcoming atmosphere.
+            You don’t have to be a programmer and you certainly don’t have to be majoring in Computer Science.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion
+          sx={{ background: "#070c1d", borderBottom: "1px solid #FAFAFA" }}
+        >
+          <AccordionSummary
+            sx={{ color: "#fff", background: "#070c1d" }}
+            expandIcon={<ExpandMoreIcon sx={{ color: "#FAFAFA" }} />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+          >
+            <Typography variant="subtitle1">
+              What if I don't know how to code
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails sx={{ color: "#fff", background: "#070c1d" }}>
+            <Typography variant="subtitle2">
+            Not a problem! It’s entirely irrelevant what your experience is going into a hackathon,
+             as long as you’re willing to learn and have fun.
+             There will be plenty of mentors and fellow hackers to help you out.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
         <Accordion
           sx={{ background: "#070c1d", borderBottom: "1px solid #FAFAFA" }}
         >
@@ -65,6 +108,26 @@ export default function FAQs() {
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
+            <Typography variant="subtitle1">
+              What if I don't have a Team?
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails sx={{ color: "#fff", background: "#070c1d" }}>
+            <Typography variant="subtitle2">
+            No worries! We've a good discord community, you may look around there for the same , 
+            <a href="https://discord.gg/gupvGF8a">Team TechnoJam's Discord </a>You can find your team members there.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion
+          sx={{ background: "#070c1d", borderBottom: "1px solid #FAFAFA" }}
+        >
+          <AccordionSummary
+            sx={{ color: "#fff", background: "#070c1d" }}
+            expandIcon={<ExpandMoreIcon sx={{ color: "#FAFAFA" }} />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+          >
             <Typography variant="subtitle1">When?</Typography>
           </AccordionSummary>
           <AccordionDetails sx={{ color: "#fff", background: "#070c1d" }}>
@@ -89,6 +152,27 @@ export default function FAQs() {
             <Typography variant="subtitle2">
             Smart India Hackathon Pre-Qualifiers 2023 will be conducted offline by Galgotias University,
               Greater Noida
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion
+          sx={{ background: "#070c1d", borderBottom: "1px solid #FAFAFA" }}
+        >
+          <AccordionSummary
+            sx={{ color: "#fff", background: "#070c1d" }}
+            expandIcon={<ExpandMoreIcon sx={{ color: "#FAFAFA" }} />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+          >
+            <Typography variant="subtitle1">
+              Will I annoy people if I ask them questions ?
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails sx={{ color: "#fff", background: "#070c1d" }}>
+            <Typography variant="subtitle2">
+            No! Hackathons are all about learning and sharing knowledge.
+             Asking questions is a great way to learn new things and meet new people. 
+            Don’t be afraid to ask questions, no matter how simple you think they are.
             </Typography>
           </AccordionDetails>
         </Accordion>
