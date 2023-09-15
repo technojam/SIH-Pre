@@ -38,7 +38,7 @@ function App() {
       <ThemeComponent />
 
       <Event />
-      {/* <Sponsers /> */}
+      <Sponsers />
       <FAQs />
       <Footer />
     </div>
