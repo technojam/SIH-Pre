@@ -60,7 +60,7 @@ export default function Sponsers() {
 					alignItems="center"
 					flexWrap="wrap"
 				>
-					<img src={replt} height="150" width="500" />
+					<img src={replt} height="150" width="500" alt="REPLIT LOGO"/>
 				</Stack>
 				{/* <Divider sx={{ background: "grey" }} />
 
