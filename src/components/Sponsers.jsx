@@ -41,8 +41,8 @@ export default function Sponsers() {
 					alignItems="center"
 					flexWrap="wrap"
 				>
-					<img src={devfolio} height="100" width="400" />
-					<img src={polygon} height="100" width="400" />
+					<img src={devfolio} height="100" width="400" alt="DEVFOLIO LOGO"/>
+					<img src={polygon} height="100" width="400" alt="POLYGON LOGO"/>
 				</Stack>
 				<Divider sx={{ background: "grey", mt: 5 }} />
 
