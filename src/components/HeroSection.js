@@ -24,6 +24,17 @@ const styles = {
 };
 
 function HeroSection() {
+  React.useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <HeroSectionContainer>
       <div style={styles.root}>
@@ -81,14 +92,20 @@ function HeroSection() {
                     }}
                   />
                 </h5>
-                <button className="register__btn">
+                {/* <button className="register__btn">
                   <a
                     href="https://forms.gle/NbYFVYTyzcYcWFWm9"
                     style={{ textDecoration: "none" }}
                   >
                     Register
                   </a>
-                </button>
+                </button> */}
+                <div
+                  class="apply-button"
+                  data-hackathon-slug="technojam"
+                  data-button-theme="light"
+                  style={{ height: "44px", width: "312px" }}
+                ></div>
                 <div className="social__media__icons">
                   <a
                     href="https://www.linkedin.com/company/technojam/"
@@ -182,7 +199,7 @@ function HeroSection() {
                   }}
                 />
               </div> */}
-              <Box
+              {/* <Box
                 sx={{
                   display: "flex",
                   flexDirection: "row",
@@ -212,12 +229,12 @@ function HeroSection() {
                     Click here
                   </a>
                 </Button>
-              </Box>
+              </Box> */}
             </Stack>
           </div>
         </div>
-      </div>
-    </HeroSectionContainer>
+      </div >
+    </HeroSectionContainer >
   );
 }
 
