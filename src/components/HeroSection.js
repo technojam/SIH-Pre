@@ -92,20 +92,20 @@ function HeroSection() {
                     }}
                   />
                 </h5>
-                {/* <button className="register__btn">
+                <button className="register__btn">
                   <a
                     href="https://forms.gle/NbYFVYTyzcYcWFWm9"
                     style={{ textDecoration: "none" }}
                   >
                     Register
                   </a>
-                </button> */}
-                <div
+                </button>
+                {/* <div
                   class="apply-button"
                   data-hackathon-slug="technojam"
                   data-button-theme="light"
                   style={{ height: "44px", width: "312px" }}
-                ></div>
+                ></div> */}
                 <div className="social__media__icons">
                   <a
                     href="https://www.linkedin.com/company/technojam/"
